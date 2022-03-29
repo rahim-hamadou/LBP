@@ -24,13 +24,13 @@
 							<router-link to="/">Accueil</router-link>
 						</li>
 						<li class="nav-item hover-underline-animation">
-							<router-link cl to="/gallery">Galerie</router-link>
-						</li>
-						<li class="nav-item hover-underline-animation">
-							<router-link to="/about">Informations</router-link>
+							<router-link to="/prestations">Prestations</router-link>
 						</li>
 						<li class="nav-item hover-underline-animation">
 							<router-link to="/salon">Le Salon</router-link>
+						</li>
+						<li class="nav-item hover-underline-animation">
+							<router-link cl to="/gallery">Galerie</router-link>
 						</li>
 					</ul>
 					<!-- social -->

@@ -51,7 +51,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="v-slider-bloc"><h1>Bloc 4</h1></div>
+
 			<div class="v-slider-bloc flex-sm-column flex-md-row justify-content-around">
 				<CardInfo
 					title="L'histoire du salon
@@ -63,6 +63,7 @@
 					content="Les Belles plantes propose toutes prestations, allant de la coupe aux ciseaux pour messieurs, passant par la coloration végétale ou semi-végétale pour madame, sans oublier les soins régénérateurs..."
 				></CardInfo>
 				<CardInfo
+					hairdresser="../assets/team/hairdress-1.jpeg"
 					title="Nos plus belles coiffures"
 					content="Les Belles Plantes, ça n'est pas qu'un salon de coiffure ! C'est également un lieu de création !"
 				></CardInfo>
@@ -81,6 +82,7 @@
 import FooterBottom from "@/components/FooterBottom.vue";
 import NavBarTop from "@/components/NavBarTop.vue";
 import CardInfo from "@/components/CardInfo.vue";
+// import MapInfoVue from "@/components/MapInfo.vue";
 
 export default {
 	name: "HomeView",
@@ -88,6 +90,7 @@ export default {
 		NavBarTop,
 		CardInfo,
 		FooterBottom,
+		// MapInfoVue,
 
 		// NavBarTop,
 	},
@@ -154,9 +157,9 @@ export default {
 .v-slider-bloc:nth-child(3) {
 	background-color: rgb(0, 110, 255);
 }
-.v-slider-bloc:nth-child(4) {
+/* .v-slider-bloc:nth-child(4) {
 	background-color: rgb(194, 146, 41);
-}
+} */
 
 /* snap-scroll */
 /* illustration */

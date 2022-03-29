@@ -39,7 +39,7 @@ h6,
 a,
 span,
 p:not(nav) {
-	font-size: calc(28 * var(--res));
+	font-size: calc(25 * var(--res));
 	// font-size: clamp(20px, 3vw, 40px);
 }
 // import

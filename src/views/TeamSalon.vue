@@ -4,18 +4,53 @@
 			<NavBarTop></NavBarTop>
 		</div>
 
-		<div class="border my-5">
-			<div>
+		<div class="container border my-5">
+			<div class="border">
 				<h1>L'histoire des Belles Plantes, un salon de coiffure unique.</h1>
-				<LaTeam></LaTeam>
-				<LaTeam></LaTeam>
-				<LaTeam></LaTeam>
+				<LaTeam
+					titleTeam="Pourquoi Les Belles Plantes pour un salon de coiffure ?
+"
+					contentTeam="« Les Belles Plantes », c'est l'histoire d'une coiffeuse qui pratique depuis 20 ans, et experte dans la coloration végétale depuis plus de 15 ans. Sa passion pour son métier l'a poussé à créer ce salon de coiffure. Ce salon, né d'un amour de l'environnement, est spécialisé dans les colorations 100% végétales (oui oui, c'est encore possible de ne pas avoir de produits chimiques de nos jours), mais également dans les balayages et ombrés à l'argile, ainsi que dans les soins des cheveux par les plantes. Nous accordons également énormément d'importance à vos coupes de cheveux, et c'est pourquoi nous bannissons tout effilage.
+
+"
+				></LaTeam>
+				<LaTeam
+					titleTeam="Un endroit dédié à vos cheveux et à votre confort
+"
+					contentTeam="Le salon de coiffure « Les Belles Plantes » a été imaginé comme un espace à part, un lieu exigeant, engagé et donnant corps et consistance aux envies de ses nombreuses clientes parisiennes (mais pas que !) que l'équipe qualifiée du salon se plaît quotidiennement à sublimer. C'est dans un décor cosy et minimaliste sur un agréable fond de bois et de plantes que nous vous accueillons autour de la table avec du thé, du chocolat et quelques douceurs pour faire de votre réservation dans le salon un moment d'évasion, loin des tracas de la vie quotidienne.
+
+"
+				></LaTeam>
+				<LaTeam
+					titleTeam="Le petit plus du salon
+"
+					contentTeam="Bien entendu, le Wi-Fi est à votre disposition pour faire partager à toutes vos connaissances votre bulle de décompression ! Si vous n'êtes pas du genre « connecté », des livres et magazines sont à votre disposition pour compléter ce rendez-vous. Nous faisons de votre rendez-vous un temps de coiffure intimiste et chaleureux afin de correspondre le mieux aux envies de chaque client. « Les Belles Plantes », c'est plus qu'un lieu de travail, c'est une véritable passion et une philosophie de vie que nous décidons de partager tous ensemble. Notre salon se veut respectueux des hommes et de l'environnement, et c'est pour cela que nous sommes presque zéro déchets ! Même vos cheveux sont récoltés et recyclés grâce à l'association Coiffeurs Justes. Nous sommes également alimentés par l'électricité verte de chez Enercoop, et nous vous proposons des shampooings que vous pourrez venir faire recharger au lieu d'en acheter des nouveaux !
+
+"
+				></LaTeam>
 			</div>
-			<div>
+			<div class="border my-3">
 				<h1>Venez découvrir la coiffure végétale dans notre salon</h1>
-				<HairCare></HairCare>
-				<HairCare></HairCare>
-				<HairCare></HairCare>
+				<HairCare
+					titleHair="Retrouvez vos habitudes aux Belles Plantes
+"
+					contentHair="Pour tous les friands de coloration végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons également des colorations alternatives, semi-végétales afin de se convertir en douceur vers le 100% naturel. Le salon propose également de vous faire de magnifiques balayages ou ombrés, et ce à l’argile !
+
+"
+				></HairCare>
+				<HairCare
+					titleHair="Les Belles Plantes, bien plus qu'un salon de coiffure
+"
+					contentHair="Nous vous proposons, en plus des coupes et colorations, une gamme de soins naturels haut de gamme (MARCAPAR ou 2MOSS) ayant pour vocation « le bien-être et la beauté du cheveu », dans le but de redonner force et brillance à vos cheveux. L’équipe des Belles Plantes, passionnée par les plantes et par ce qu’offre la nature, vous propose des mélanges de plantes adaptés à la nature de vos cheveux grâce aux trouvailles qu'elle fait aux quatre coins du monde.
+
+"
+				></HairCare>
+				<HairCare
+					titleHair=""
+					contentHair="Pour sublimer la beauté de ses coupes et couleur, nous disposons d'un comptoir à maquillage entièrement BIO, végan et rechargeable de la marque ZAO dans lequel vous pourrez piocher les produits qui vous conviennent. L’équipe saura évidemment aiguiller les indécises pour qu’elles puissent sortir du salon en étant pleinement épanouies. Enfin, des ateliers d’initiation / coaching avec une maquilleuse, une spécialiste des huiles essentielles et végétales ou d’autres intervenants dans le domaine de la beauté seront mis en place tout au long de l’année et resteront accessible sur réservation. (Pour être tenu des actualités, suivez nous sur Facebook et Instagram)
+
+"
+				></HairCare>
 			</div>
 		</div>
 		<FooterBottom></FooterBottom>
@@ -72,6 +107,6 @@ export default {
 /* snap-scroll */
 
 .border {
-	border: 10px solid black;
+	border: 12px solid black;
 }
 </style>

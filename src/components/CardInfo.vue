@@ -3,8 +3,9 @@
 		<div class="flip-card">
 			<div class="flip-card-inner">
 				<div class="flip-card-front centerCard">
-					<h1>{{ title }}</h1>
-					<!-- <img src="img_avatar.png" alt="Avatar" style="width: 300px; height: 300px" /> -->
+					<img src="{{hairdresser}}" alt="hairdresser" />
+
+					<!-- <img src="{{hairdresspic}}" alt="un(e) coiffeur(se)" /> -->
 				</div>
 				<div class="flip-card-back d-flex">
 					<p>{{ content }}</p>
@@ -26,16 +27,19 @@ export default {
 	props: {
 		title: String,
 		content: String,
+		hairdresser: String,
 	},
 };
 </script>
 <style lang="scss" scoped>
 .flip-card {
-	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_4_xxxxxx.jpg");
 	background-color: transparent;
 	width: 30vw;
 	height: 30vh;
 	perspective: 1000px;
+	overflow: hidden;
+}
+.flip-card:nth-child(1) {
 }
 
 .flip-card-inner {
