@@ -1,0 +1,20 @@
+$color-red: #ff0000;
+$color-green: #00ff00;
+$color-blue: #0000ff;
+
+$colorT: rgb(107, 0, 128);
+$colorP: #f5b7b1;
+$color-secondary: #00ff00;
+$color-Tertiary: #0000ff;
+
+p {
+	color: $colorP;
+}
+
+h1 {
+	color: $colorT;
+}
+
+:export {
+	$colorT: rgb(107, 0, 128);
+}

@@ -1,30 +1,60 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+	<div class="navigation">
+		<router-view />
+	</div>
 </template>
 
+<script>
+// import HomeView from "@/views/HomeView.vue";
+
+export default {
+	components: {
+		// HomeView,
+	},
+	data() {
+		return {};
+	},
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+// base
+* {
+	::before,
+	::after {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
 }
+html {
+	--res: calc(0.01 * 10vmin);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p:not(nav) {
+	font-size: calc(28 * var(--res));
+	// font-size: clamp(20px, 3vw, 40px);
+}
+// import
+@import url(../src/scss/main.scss);
+// import
 
-nav {
-  padding: 30px;
+// Main
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+// Footer
+#app {
+	background-color: v-bind(colorP);
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	// color: #2c3e50;
 }
 </style>
