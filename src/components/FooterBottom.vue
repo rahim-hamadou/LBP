@@ -4,75 +4,82 @@
 		<footer class="text-center text-lg-start bg-light text-muted">
 			<!-- Section: Links  -->
 			<section class="">
-				<div class="container text-center text-md-start mt-5">
-					<!-- Grid row -->
-					<div class="row mt-3">
-						<!-- Grid column -->
-						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-							<!-- Content -->
-							<h6 class="text-uppercase fw-bold mb-4">
-								<i class="fas fa-gem me-3"></i>Les belles Plantes
-							</h6>
-							<p>
-								Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-							</p>
-							<div class="quote">
-								<div class="text">On a trouvé la coiffeuse idéale.</div>
-								<div class="author">
-									<a
-										href="https://www.mylittleparis.com/mode-beaute/les-belles-plantes-meilleur-coiffeur-de-paris"
-										target="_blank"
-										>My Little Paris</a
+				<div class="container text-center text-md-start mt-3">
+					<div class="row flex-sm-column flex-md-row footer-comp">
+						<div class="col">
+							<div class="row"><h3>Horaires d'ouverture</h3></div>
+							<div class="row">
+								<p>
+									Lun&nbsp;: FERMÉ<br />
+									Du Mardi au Mercredi&nbsp;: {{ mardi }}<br />Jeudi &nbsp;: {{ jeudi }}<br />Vendredi
+									&nbsp;: {{ vendredi }}<br />Samedi &nbsp;: {{ samedi }}<br />
+								</p>
+							</div>
+							<div class="row">
+								<p>
+									15 rue Jean Mace<br />Paris 75011<br /><BootstrapIcon icon="phone"></BootstrapIcon
+									>&nbsp;06 20 81 41 41<br /><BootstrapIcon icon="telephone"></BootstrapIcon>&nbsp;01
+									43 72 87 70<br />
+								</p>
+							</div>
+						</div>
+						<div class="col citation">
+							<div class="row"><h3>La presse parle de nous</h3></div>
+							<div class="row">
+								<div class="quote">
+									<div class="text">
+										<p>On a trouvé la coiffeuse idéale.</p>
+										<p>
+											<a
+												class="author"
+												href="https://www.mylittleparis.com/mode-beaute/les-belles-plantes-meilleur-coiffeur-de-paris"
+												target="_blank"
+												>My Little Paris</a
+											>
+										</p>
+									</div>
+								</div>
+								<div class="quote">
+									<div class="text">
+										<p>Une alternative à Christophe Robin.</p>
+										<p>
+											<a
+												class="author"
+												href="https://lilibarbery.com/beauty/adresses/cheveux/article-les-belles-plantes/"
+												target="_blank"
+												>Lili Barbery</a
+											>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="row"><h3>Nous suivre</h3></div>
+							<div class="row social">
+								<div class="col">
+									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+										<a href="https://fr-fr.facebook.com/salonlesbellesplantes/"
+											><BootstrapIcon icon="facebook" class="icon fb" />&nbsp;Facebook</a
+										>
+									</a>
+
+									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+										><a href="https://www.instagram.com/les.belles.plantes/?hl=fr"
+											><BootstrapIcon icon="instagram" class="icon ig" />&nbsp;Instagram</a
+										></a
 									>
 								</div>
 							</div>
-							<div class="quote">
-								<div class="text">Une alternative à Christophe Robin.</div>
-								<div class="author">
-									<a
-										href="https://lilibarbery.com/beauty/adresses/cheveux/article-les-belles-plantes/"
-										target="_blank"
-										>Lili Barbery</a
-									>
-								</div>
-							</div>
 						</div>
-						<!-- Grid column -->
-
-						<!-- Grid column -->
-						<div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
-							<!-- Links -->
-							<h6 class="text-uppercase fw-bold mb-4">Horaires</h6>
-							<div>Mardi / Mercredi de 10h à 19h</div>
-
-							<div>Jeudi de 10h à 21h</div>
-							<div>Vendredi de 10h à 20h</div>
-							<div>Samedi, de 9h30 à 18h</div>
-						</div>
-						<!-- Grid column -->
-
-						<!-- Grid column -->
-						<div class="col-md-8 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-							<!-- Links -->
-							<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-							<p><BootstrapIcon icon="house" /> 15 rue Jean Mace 75011</p>
-							<p>
-								<BootstrapIcon icon="envelope" />
-								gaelle.grippon@gmail.com
-							</p>
-							<p><BootstrapIcon icon="phone" /> + 01.43.72.87.70</p>
-							<p><BootstrapIcon icon="phone" /> + 06.20.81.41.41</p>
-						</div>
-						<!-- Grid column -->
 					</div>
-					<!-- Grid row -->
 				</div>
 			</section>
 			<!-- Section: Links  -->
 
 			<!-- Copyright -->
-			<div class="text-center p-4 border">
-				<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//">Les Belles Plantes</a> © 2022 Tous
+			<div class="text-center border">
+				<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022 Tous
 				droits réservés.
 			</div>
 			<!-- Copyright -->
@@ -84,27 +91,83 @@
 <script>
 export default {
 	name: "FooterBottom",
+	data() {
+		return {
+			mardi: "9h30 à 19h",
+			jeudi: "9h30 à 21h",
+			vendredi: "9h30 à 20h",
+			samedi: "9h à 18h",
+		};
+	},
 	props: {},
 };
 </script>
 <style scoped>
-.quote .text::before {
+/* .quote .text::before {
 	content: "“";
 }
 .quote .text::after {
 	content: "“";
+} */
+
+h3 {
+	margin: 10px 0;
+	/* font-size: calc(22 * var(--res)); */
+	font-weight: bold;
+	text-transform: uppercase;
+	/* font-size: 1.8vw; */
+}
+p,
+a {
+	padding: 0;
+	/* font-size: calc(22 * var(--res)); */
+	/* font-size: 1.5vw; */
+	text-decoration: none;
 }
 
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.citation p,
+a {
+	margin: 0;
+}
+.ig {
+	color: #f46f30;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+.ig:hover {
+	color: #f46f30;
+	transform: scale(1.5);
+}
+.fb {
+	color: #3b5998;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+.fb:hover {
+	color: #3b5998;
+	transform: scale(1.5);
+}
 /* sourlignement */
-.author a {
+.author {
 	font-style: italic;
 	text-decoration: none;
 	background-size: 0 100;
 	background: linear-gradient(to top, wheat 0%, wheat 10%, transparent 80%) no-repeat left bottom / 0% 100%;
 	transition: background-size 0.4s;
 }
-.author a:hover {
+.author:hover {
 	background-size: 100% 100%;
 }
 /* sourlignement */
+
+.footer-comp {
+	text-align: center;
+}
 </style>

@@ -4,34 +4,32 @@
 			<NavBarTop></NavBarTop>
 		</div>
 		<div class="container-fluid">
-			<div class="v-slider-bloc">
-				<!-- Banner -->
-				<div class="col bg-lbp mx-0 my-4 flex-column">
-					<div class="col my-4">
-						<img src="../assets/bg/LBP_logo.png" alt="logo du salon de coiffure les belles plantes" />
-					</div>
-					<div class="col">
-						<button type="button" class="btn btn-booking">
-							<a
-								class="btn-booking booking"
-								href="https://widget.treatwell.fr/salon/les-belles-plantes/"
-								target="_blank"
-								>Réserver</a
-							>
-						</button>
-					</div>
+			<!-- <div class="v-slider-bloc"> -->
+			<!-- Banner -->
+			<div class="col bg-lbp mx-0 my-4 flex-column header-top">
+				<div class="col logo my-4">
+					<img src="../assets/bg/LBP_logo.png" alt="logo du salon de coiffure les belles plantes" />
 				</div>
+				<div class="col my-4">
+					<button type="button" class="btn btn-booking my-5">
+						<a
+							class="btn-booking booking"
+							href="https://widget.treatwell.fr/salon/les-belles-plantes/"
+							target="_blank"
+							>Réserver</a
+						>
+					</button>
+				</div>
+				<!-- </div> -->
 				<!-- Banner -->
 			</div>
-			<div class="v-slider-bloc">
+			<div class="container-fluid v-slider-bloc">
 				<div
-					class="row d-flex flex-column flex-lg-row align-items-sm-center align-items-lg-center justify-content-center"
+					class="row d-flex flex-column align-items-center flex-md-row align-items-sm-center align-items-md-center"
 				>
 					<div class="col">
-						<h1>
-							<span class="italic">Les Belles Plantes</span>, un salon de coiffure nature, BIO et vegan
-						</h1>
-						<p class="description mx-5">
+						<h1>Les Belles Plantes, un salon de coiffure nature, BIO et vegan</h1>
+						<p class="description mx-3">
 							Le salon de coiffure « Les Belles Plantes » tire son nom des bienfaits naturels des végétaux
 							utilisés (henné, amla, indigo, camomille, curcuma, brou de noix....) pour réparer, mettre en
 							beauté ou colorer en douceur des cheveux et un cuir chevelu, régulièrement malmenés par la
@@ -44,34 +42,15 @@
 							gainés, revigorés et nourris véritablement.
 						</p>
 					</div>
-					<div class="col-4 d-flex justify-content-center">
-						<div class="illustration">
-							<img src="../assets/bg/LBP_logo.png" alt="" />
-						</div>
+					<div class="col-sm-8 d-flex justify-content-center col-md-4">
+						<div class="card-info-1"></div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="v-slider-bloc flex-sm-column flex-md-row justify-content-around">
-				<CardInfo
-					title="L'histoire du salon
-"
-					content="Le salon de coiffure  Les Belles Plantes  a été imaginé comme un espace à part, un lieu exigeant, engagé et donnant corps et consistance aux envies de ses clients."
-				></CardInfo>
-				<CardInfo
-					title="Découvrez le salon de coiffure végétale"
-					content="Les Belles plantes propose toutes prestations, allant de la coupe aux ciseaux pour messieurs, passant par la coloration végétale ou semi-végétale pour madame, sans oublier les soins régénérateurs..."
-				></CardInfo>
-				<CardInfo
-					hairdresser="../assets/team/hairdress-1.jpeg"
-					title="Nos plus belles coiffures"
-					content="Les Belles Plantes, ça n'est pas qu'un salon de coiffure ! C'est également un lieu de création !"
-				></CardInfo>
-			</div>
-
-			<div class="v-slider-bloc">
-				<FooterBottom></FooterBottom>
-			</div>
+		<div class="mt-5">
+			<FooterBottom></FooterBottom>
 		</div>
 	</div>
 </template>
@@ -81,14 +60,14 @@
 // import NavBarTop from "@/components/NavBarTop.vue";
 import FooterBottom from "@/components/FooterBottom.vue";
 import NavBarTop from "@/components/NavBarTop.vue";
-import CardInfo from "@/components/CardInfo.vue";
+// import CardInfo from "@/components/CardInfo.vue";
 // import MapInfoVue from "@/components/MapInfo.vue";
 
 export default {
 	name: "HomeView",
 	components: {
 		NavBarTop,
-		CardInfo,
+		// CardInfo,
 		FooterBottom,
 		// MapInfoVue,
 
@@ -112,27 +91,30 @@ export default {
 
 .btn-booking {
 	color: white;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	background-color: #1c334f;
 	padding: 10px 15px;
 	text-decoration: none;
 }
-.italic {
-	font-style: italic;
-}
+
 .card-info-1 {
 	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_4_xxxxxx.jpg");
 	background-size: cover;
 	overflow: hidden;
 	height: 300px;
-	width: auto;
+	width: 100%;
 	background-position: center;
 }
 .news {
 	overflow: hidden;
 }
+.header-top {
+	/* overflow: hidden; */
+	display: flex;
+	height: 75vh;
+}
 
-/* snap-scroll */
+/* snap-scroll
 .container-fluid {
 	height: 100vh;
 	overflow-y: scroll;
@@ -156,22 +138,17 @@ export default {
 }
 .v-slider-bloc:nth-child(3) {
 	background-color: rgb(0, 110, 255);
-}
+} */
 /* .v-slider-bloc:nth-child(4) {
 	background-color: rgb(194, 146, 41);
 } */
 
 /* snap-scroll */
 /* illustration */
-.illustration {
-	background-color: rgb(214, 75, 20);
-	/* height: 40vh; */
-	padding: 10px;
-	width: 25vh;
-	border-radius: 35% 35% 0 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.exemple {
+	overflow: hidden;
+	height: 200px;
+	width: auto;
 }
 /* illustration */
 </style>

@@ -26,22 +26,38 @@ export default {
 		margin: 0;
 		padding: 0;
 	}
+
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
+
 html {
-	--res: calc(0.01 * 10vmin);
+	// --res: calc(0.01 * 10vmin);
+	font-size: 80%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+
+body {
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
 a,
-span,
-p:not(nav) {
-	font-size: calc(25 * var(--res));
-	// font-size: clamp(20px, 3vw, 40px);
+a:visited {
+	color: inherit;
 }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// a,
+// span,
+// p:not(nav) {
+// 	font-size: calc(30 * var(--res));
+// 	font-size: clamp(20px, 3vw, 40px);
+// }
 // import
 @import url(../src/scss/main.scss);
 // import
