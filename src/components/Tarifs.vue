@@ -113,6 +113,16 @@
 						<li>cheveux longs {{ BrushExtra.cheveuxlongs }}</li>
 					</ul>
 				</div>
+				<div class="col">
+					<h3 class="focus center">SOIN</h3>
+
+					<ul>
+						<li>soin hydratant (20min) séchage {{ Soin.soinHydra }}</li>
+					</ul>
+				</div>
+				<div class="row mt-3 justify-content-center">
+					<p class="alias mt-0">*supplément de 10 à 20 euros en fonction de l'épaisseur</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -205,6 +215,33 @@ span {
 	font-size: 60%;
 } */
 
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.alias {
+	border-radius: 5px;
+	background-color: #dfede2;
+	margin: 0;
+	width: fit-content;
+}
+/* DONT USE */
+
+/* sourlignement */
+/* .focus {
+	font-style: italic;
+	width: auto;
+	font-style: italic;
+	text-decoration: none;
+	background-size: 0 100;
+	background: linear-gradient(to top, #b8ddc0 0%, #b8ddc0 10%, transparent 80%) no-repeat left bottom / 0% 100%;
+	transition: background-size 0.4s;
+}
+.focus:hover {
+	background-size: 120% 20%;
+} */
+/* sourlignement */
 /* Scroll */
 /* .container {
 	height: 70vh;
@@ -221,24 +258,4 @@ span {
 	scroll-snap-align: center;
 } */
 /* scroll */
-
-.center {
-	text-align: center;
-	margin: 0 auto;
-}
-
-/* sourlignement */
-/* .focus {
-	font-style: italic;
-	width: auto;
-	font-style: italic;
-	text-decoration: none;
-	background-size: 0 100;
-	background: linear-gradient(to top, #b8ddc0 0%, #b8ddc0 10%, transparent 80%) no-repeat left bottom / 0% 100%;
-	transition: background-size 0.4s;
-}
-.focus:hover {
-	background-size: 120% 20%;
-} */
-/* sourlignement */
 </style>
