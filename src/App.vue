@@ -34,7 +34,7 @@ export default {
 
 html {
 	// --res: calc(0.01 * 10vmin);
-	font-size: 80%;
+	font-size: clamp(13px, 5vw, 20px);
 }
 
 body {

@@ -1,24 +1,23 @@
 <template>
 	<div>
-		<div mb-5>
+		<div mb-2>
 			<NavBarTop></NavBarTop>
 		</div>
 
-		<div class="container about my-5">
-			<h1>Informations du salon</h1>
-			<div class="container">
+		<div class="about my-2">
+			<div class="">
 				<div class="row my-4 v-slider-bloc">
 					<div class="row flex-md-row flex-sm-column">
 						<div class="col"><TarifsInfo /></div>
-						<div class="col"><ContactInfo></ContactInfo></div>
+						<!-- <div class="col"><ContactInfo></ContactInfo></div> -->
 					</div>
 				</div>
 
-				<div class="row mx-auto justify-content-center loca v-slider-bloc">
+				<!-- <div class="row mx-auto justify-content-center loca v-slider-bloc">
 					<div class="col mx-auto my-4">
 						<MapInfo></MapInfo>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -30,8 +29,8 @@
 // @ is an alias to /src
 // import NavBarTop from "@/components/NavBarTop.vue";
 import TarifsInfo from "@/components/Tarifs.vue";
-import ContactInfo from "../components/Contact.vue";
-import MapInfo from "../components/MapInfo.vue";
+// import ContactInfo from "../components/Contact.vue";
+// import MapInfo from "../components/MapInfo.vue";
 import FooterBottom from "@/components/FooterBottom.vue";
 import NavBarTop from "@/components/NavBarTop.vue";
 
@@ -39,8 +38,8 @@ export default {
 	name: "AboutView",
 	components: {
 		TarifsInfo,
-		MapInfo,
-		ContactInfo,
+		// MapInfo,
+		// ContactInfo,
 		NavBarTop,
 		FooterBottom,
 	},
@@ -60,7 +59,7 @@ export default {
 	align-items: center;
 	/* font-size: 40px; */
 	border-bottom: 5px solid black;
-	height: 100vh;
+	height: 90vh;
 	scroll-snap-align: center;
 }
 </style>

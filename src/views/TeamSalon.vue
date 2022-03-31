@@ -59,6 +59,9 @@
 				<div class="row v-slider-bloc">
 					<h1>Venez découvrir la coiffure végétale dans notre salon</h1>
 				</div>
+				<div class="col mx-auto my-4 v-slider-bloc">
+					<MapInfo class="mapScreen"></MapInfo>
+				</div>
 
 				<div class="">
 					<div class="row v-slider-bloc">
@@ -115,6 +118,7 @@ import HairCare from "../components/HairCare.vue";
 import LaTeam from "../components/LaTeam.vue";
 import FooterBottom from "@/components/FooterBottom.vue";
 import NavBarTop from "@/components/NavBarTop.vue";
+import MapInfo from "@/components/MapInfo.vue";
 
 export default {
 	name: "TeamSalon",
@@ -124,6 +128,7 @@ export default {
 		NavBarTop,
 		FooterBottom,
 		HairCare,
+		MapInfo,
 	},
 };
 </script>
@@ -204,4 +209,10 @@ export default {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
+/* MAP */
+.mapScreen {
+	width: 100%;
+}
+/* MAP */
 </style>

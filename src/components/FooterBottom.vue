@@ -15,13 +15,13 @@
 									&nbsp;: {{ vendredi }}<br />Samedi &nbsp;: {{ samedi }}<br />
 								</p>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<p>
 									15 rue Jean Mace<br />Paris 75011<br /><BootstrapIcon icon="phone"></BootstrapIcon
 									>&nbsp;06 20 81 41 41<br /><BootstrapIcon icon="telephone"></BootstrapIcon>&nbsp;01
 									43 72 87 70<br />
 								</p>
-							</div>
+							</div> -->
 						</div>
 						<div class="col citation">
 							<div class="row"><h3>La presse parle de nous</h3></div>
@@ -55,7 +55,7 @@
 							</div>
 						</div>
 						<div class="col">
-							<div class="row"><h3>Nous suivre</h3></div>
+							<div class="row"><h3>Nous Joindre</h3></div>
 							<div class="row social">
 								<div class="col">
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
@@ -69,6 +69,15 @@
 											><BootstrapIcon icon="instagram" class="icon ig" />&nbsp;Instagram</a
 										></a
 									>
+									<div class="row my-1">
+										<p>
+											<!-- 15 rue Jean Mace<br />Paris 75011<br /> -->
+											<BootstrapIcon icon="phone"></BootstrapIcon>&nbsp;06 20 81 41 41<br /><BootstrapIcon
+												icon="telephone"
+											></BootstrapIcon
+											>&nbsp;01 43 72 87 70<br />
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
