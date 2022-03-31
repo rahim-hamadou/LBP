@@ -9,7 +9,7 @@
 				<div class="container text-center text-md-start mt-3">
 					<div class="row flex-column flex-md-row footer-comp">
 						<div class="col">
-							<div class="row"><h3>Horaires d'ouverture</h3></div>
+							<div class="row"><h5>Horaires d'ouverture</h5></div>
 							<div class="row">
 								<p>
 									Lun&nbsp;: FERMÉ<br />
@@ -26,7 +26,7 @@
 							</div> -->
 						</div>
 						<div class="col citation">
-							<div class="row"><h3>La presse parle de nous</h3></div>
+							<div class="row"><h5>La presse parle de nous</h5></div>
 							<div class="row">
 								<div class="quote">
 									<div class="text">
@@ -57,7 +57,7 @@
 							</div>
 						</div>
 						<div class="col">
-							<div class="row"><h3>Nous Joindre</h3></div>
+							<div class="row"><h5>Nous Joindre</h5></div>
 							<div class="row social">
 								<div class="col">
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">

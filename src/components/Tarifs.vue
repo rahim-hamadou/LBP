@@ -55,25 +55,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="row mx-auto justify-content-center">
-				<h3 class="focus center">COLORATION ALTERNATIVE*</h3>
-				<p>application couleur shampoing soin massant séchage</p>
-				<ul>
-					<li>racine court {{ alternative.racineCourt }} /avec coupe {{ alternative.racineCourtCoupe }}</li>
-					<li>racine long {{ alternative.racineLong }} / avec coupe {{ alternative.racineLongCoupe }}</li>
-				</ul>
-			</div>
-
-			<div class="row mx-auto justify-content-center">
-				<div class="col">
-					<h3 class="focus center">ÉCLAIRCISSEMENT À L'ARGILE</h3>
-
-					<ul>
-						<li>balayage à l'argile de {{ eclaircissement.balayageArgile }}</li>
-						<li>ombré à l'argile de {{ eclaircissement.ombreArgile }}</li>
-					</ul>
-				</div>
-			</div>
 			<div class="row">
 				<div class="col">
 					<h3 class="focus center">COUPE* / AVEC BRUSH</h3>
@@ -94,6 +75,26 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+
+			<div class="row mx-auto justify-content-center">
+				<div class="col">
+					<h3 class="focus center">ÉCLAIRCISSEMENT À L'ARGILE</h3>
+
+					<ul>
+						<li>balayage à l'argile de {{ eclaircissement.balayageArgile }}</li>
+						<li>ombré à l'argile de {{ eclaircissement.ombreArgile }}</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row mx-auto justify-content-center">
+				<h3 class="focus center">COLORATION ALTERNATIVE*</h3>
+				<p>application couleur shampoing soin massant séchage</p>
+				<ul>
+					<li>racine court {{ alternative.racineCourt }} /avec coupe {{ alternative.racineCourtCoupe }}</li>
+					<li>racine long {{ alternative.racineLong }} / avec coupe {{ alternative.racineLongCoupe }}</li>
+				</ul>
 			</div>
 			<div class="col mx-auto justify-content-center v-slider-bloc">
 				<div class="col">
