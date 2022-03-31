@@ -2,7 +2,7 @@
 	<div>
 		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light nav-top">
 			<div class="container-fluid navigation-bar">
-				<a class="navbar-brand me-0" href="#" title="les belles plantes"
+				<a class="navbar-brand me-0 nav-content" href="#" title="les belles plantes"
 					>Les Belles Plantes<i class="bi-alarm"></i>
 				</a>
 
@@ -40,14 +40,14 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
 									<a class="fb" href="https://fr-fr.facebook.com/salonlesbellesplantes/"
-										><BootstrapIcon icon="facebook"
+										><BootstrapIcon icon="facebook" class="icon fb"
 									/></a>
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
 									><a class="ig" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
-										><BootstrapIcon icon="instagram" class="icon" /></a
+										><BootstrapIcon icon="instagram" class="icon ig" /></a
 								></a>
 							</li>
 						</ul>
@@ -109,7 +109,7 @@ export default {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #0087ca;
+	background-color: #42b983;
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
@@ -123,7 +123,7 @@ export default {
 // Tools
 // Header
 .navigation-bar {
-	background-color: rgb(214, 75, 20);
+	background-color: #dfede2;
 }
 nav {
 	padding: 0px;
@@ -149,6 +149,7 @@ ul {
 
 li a {
 	text-decoration: none;
+	color: #1c2f59;
 }
 
 li .nav-item:hover {
@@ -170,8 +171,13 @@ li .nav-item:hover {
 
 .ig:hover {
 	color: #f46f30;
+	transform: scale(1.5);
 }
 .fb:hover {
 	color: #3b5998;
+	transform: scale(1.5);
+}
+.nav-content {
+	color: #1c2f59;
 }
 </style>

@@ -1,11 +1,13 @@
 <template>
-	<div class="row border">
-		<!-- Footer -->
-		<footer class="text-center text-lg-start bg-light text-muted">
-			<!-- Section: Links  -->
-			<section class="">
+	<section>
+		<div class="row about">
+			<!-- Footer -->
+
+			<footer class="text-center text-lg-start footer-content">
+				<!-- Section: Links  -->
+
 				<div class="container text-center text-md-start mt-3">
-					<div class="row flex-sm-column flex-md-row footer-comp">
+					<div class="row flex-column flex-md-row footer-comp">
 						<div class="col">
 							<div class="row"><h3>Horaires d'ouverture</h3></div>
 							<div class="row">
@@ -83,18 +85,18 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- Section: Links  -->
+				<!-- Copyright -->
+				<div class="text-center border">
+					<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022
+					Tous droits réservés.
+				</div>
+				<!-- Copyright -->
 
-			<!-- Copyright -->
-			<div class="text-center border">
-				<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022 Tous
-				droits réservés.
-			</div>
-			<!-- Copyright -->
-		</footer>
-		<!-- Footer -->
-	</div>
+				<!-- Section: Links  -->
+			</footer>
+			<!-- Footer -->
+		</div>
+	</section>
 </template>
 
 <script>
@@ -178,5 +180,10 @@ a {
 
 .footer-comp {
 	text-align: center;
+}
+
+.footer-content {
+	background-color: #dfede2;
+	color: #1c2f59;
 }
 </style>

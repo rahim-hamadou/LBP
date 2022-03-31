@@ -1,5 +1,5 @@
 <template>
-	<div class="gallery my-5">
+	<div class="gallery mt-5">
 		<NavBarTop></NavBarTop>
 		<h1>Les Belles Plantes en images</h1>
 		<CarouselDemo></CarouselDemo>

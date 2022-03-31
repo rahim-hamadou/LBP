@@ -6,7 +6,7 @@
 
 		<div class="about my-2">
 			<div class="">
-				<div class="row my-4 v-slider-bloc">
+				<div class="row my-4">
 					<div class="row flex-md-row flex-sm-column">
 						<div class="col"><TarifsInfo /></div>
 						<!-- <div class="col"><ContactInfo></ContactInfo></div> -->
@@ -47,19 +47,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container {
-	height: 70vh;
-	overflow-y: scroll;
-	scroll-snap-type: y mandatory;
-}
+// .container {
+// 	height: 70vh;
+// 	overflow-y: scroll;
+// 	scroll-snap-type: y mandatory;
+// }
 
-.v-slider-bloc {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* font-size: 40px; */
-	border-bottom: 5px solid black;
-	height: 90vh;
-	scroll-snap-align: center;
-}
+// .v-slider-bloc {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	border-bottom: 5px solid black;
+// 	height: 90vh;
+// 	scroll-snap-align: center;
+// }
 </style>

@@ -10,8 +10,8 @@
 				<div class="col logo my-4">
 					<img src="../assets/bg/LBP_logo.png" alt="logo du salon de coiffure les belles plantes" />
 				</div>
-				<div class="col my-4">
-					<button type="button" class="btn btn-booking my-5">
+				<div class="col my-1">
+					<button type="button" class="btn btn-booking">
 						<a
 							class="btn-booking booking"
 							href="https://widget.treatwell.fr/salon/les-belles-plantes/"
@@ -88,6 +88,9 @@ export default {
 	width: 100%;
 	background-repeat: no-repeat;
 }
+/* .logo {
+	width: 10vw;
+} */
 
 .btn-booking {
 	color: white;
@@ -95,6 +98,8 @@ export default {
 	background-color: #1c334f;
 	padding: 10px 15px;
 	text-decoration: none;
+	width: auto;
+	margin: 0;
 }
 
 .card-info-1 {
@@ -112,6 +117,8 @@ export default {
 	/* overflow: hidden; */
 	display: flex;
 	height: 75vh;
+	align-items: center;
+	justify-content: center;
 }
 
 /* snap-scroll

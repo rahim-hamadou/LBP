@@ -1,55 +1,61 @@
 <template>
 	<div class="tarif">
-		<div class="">
+		<div class="my-4">
 			<h1>Prix de nos prestations</h1>
 		</div>
 
-		<div class="container-fluid informations__prices">
-			<div class="row mx-auto justify-content-center v-slider-bloc">
-				<div class="col">
+		<div class="container informations__prices">
+			<div class="row mx-auto justify-content-center">
+				<div class="row">
 					<h3>COLORATION VÉGÉTALE*</h3>
 					<h6>Blond cuivré / marron</h6>
-					<h6>
-						1 application (reflets et transparence des cheveux blancs) shampooing + soin massant + séchage
-						/brush
-					</h6>
-					<ul>
-						<li>
-							cheveux courts {{ vegetale.simple.cheveuxCourts }} / avec coupe
-							{{ vegetale.simple.cheveuxCourtsCoupe }} / brush
-							{{ vegetale.simple.cheveuxCourtsBrush }}
-						</li>
-						<li>
-							cheveux mi longs {{ vegetale.simple.cheveuxMiLongs }} / avec coupe
-							{{ vegetale.simple.cheveuxMiLongsCoupe }} / brush {{ vegetale.simple.cheveuxMiLongsBrush }}
-						</li>
-						<li>
-							cheveux longs {{ vegetale.simple.cheveuxlongs }} / avec coupe
-							{{ vegetale.simple.cheveuxLongsCoupe }} / brush {{ vegetale.simple.cheveuxLongsBrush }}
-						</li>
-					</ul>
-					<h6>
-						2 applications (100% couverture des cheveux blancs) marron ou brun + shampoing + soin massant +
-						séchage / brush
-					</h6>
-					<ul>
-						<li>
-							cheveux courts {{ vegetale.double.cheveuxCourts }} / avec coupe
-							{{ vegetale.double.cheveuxCourtsCoupe }} / brush
-							{{ vegetale.double.cheveuxCourtsBrush }}
-						</li>
-						<li>
-							cheveux mi longs {{ vegetale.double.cheveuxMiLongs }} / avec coupe
-							{{ vegetale.double.cheveuxMiLongsCoupe }} / brush {{ vegetale.double.cheveuxMiLongsBrush }}
-						</li>
-						<li>
-							cheveux longs {{ vegetale.double.cheveuxlongs }} / avec coupe
-							{{ vegetale.double.cheveuxLongsCoupe }} / brush {{ vegetale.double.cheveuxLongsBrush }}
-						</li>
-					</ul>
+					<div class="col">
+						<h6>
+							1 application (reflets et transparence des cheveux blancs) shampooing + soin massant +
+							séchage /brush
+						</h6>
+						<ul>
+							<li>
+								cheveux courts {{ vegetale.simple.cheveuxCourts }} / avec coupe
+								{{ vegetale.simple.cheveuxCourtsCoupe }} / brush
+								{{ vegetale.simple.cheveuxCourtsBrush }}
+							</li>
+							<li>
+								cheveux mi longs {{ vegetale.simple.cheveuxMiLongs }} / avec coupe
+								{{ vegetale.simple.cheveuxMiLongsCoupe }} / brush
+								{{ vegetale.simple.cheveuxMiLongsBrush }}
+							</li>
+							<li>
+								cheveux longs {{ vegetale.simple.cheveuxlongs }} / avec coupe
+								{{ vegetale.simple.cheveuxLongsCoupe }} / brush {{ vegetale.simple.cheveuxLongsBrush }}
+							</li>
+						</ul>
+					</div>
+					<div class="col">
+						<h6>
+							2 applications (100% couverture des cheveux blancs) marron ou brun + shampoing + soin
+							massant + séchage / brush
+						</h6>
+						<ul>
+							<li>
+								cheveux courts {{ vegetale.double.cheveuxCourts }} / avec coupe
+								{{ vegetale.double.cheveuxCourtsCoupe }} / brush
+								{{ vegetale.double.cheveuxCourtsBrush }}
+							</li>
+							<li>
+								cheveux mi longs {{ vegetale.double.cheveuxMiLongs }} / avec coupe
+								{{ vegetale.double.cheveuxMiLongsCoupe }} / brush
+								{{ vegetale.double.cheveuxMiLongsBrush }}
+							</li>
+							<li>
+								cheveux longs {{ vegetale.double.cheveuxlongs }} / avec coupe
+								{{ vegetale.double.cheveuxLongsCoupe }} / brush {{ vegetale.double.cheveuxLongsBrush }}
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="row mx-auto justify-content-center v-slider-bloc">
+			<div class="row mx-auto justify-content-center">
 				<h3>COLORATION ALTERNATIVE*</h3>
 				<p>application couleur shampoing soin massant séchage</p>
 				<ul>
@@ -58,7 +64,7 @@
 				</ul>
 			</div>
 
-			<div class="row mx-auto justify-content-center v-slider-bloc">
+			<div class="row mx-auto justify-content-center">
 				<div class="col">
 					<h2>ÉCLAIRCISSEMENT À L'ARGILE</h2>
 
@@ -68,7 +74,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col v-slider-bloc">
+			<div class="row">
 				<div class="col">
 					<h2>COUPE* / AVEC BRUSH</h2>
 
@@ -89,7 +95,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row mx-auto justify-content-center v-slider-bloc">
+			<div class="col mx-auto justify-content-center v-slider-bloc">
 				<div class="col">
 					<h2>BRUSHING*</h2>
 
@@ -108,7 +114,6 @@
 					</ul>
 				</div>
 			</div>
-			<!-- <div class="row mx-auto justify-content-center loca v-slider-bloc"></div> -->
 		</div>
 	</div>
 </template>
@@ -201,20 +206,19 @@ span {
 } */
 
 /* Scroll */
-.container-fluid {
+/* .container {
 	height: 70vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
-}
+} */
 
-.v-slider-bloc {
+/* .v-slider-bloc {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	border-bottom: 5px solid black;
 	height: 80vh;
 	scroll-snap-align: center;
-}
+} */
 /* scroll */
 </style>
