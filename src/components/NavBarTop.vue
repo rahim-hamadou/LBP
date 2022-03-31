@@ -169,6 +169,16 @@ li .nav-item:hover {
 	margin: 0;
 }
 
+.ig {
+	color: #f46f30;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+.fb {
+	color: #3b5998;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
 .ig:hover {
 	color: #f46f30;
 	transform: scale(1.5);

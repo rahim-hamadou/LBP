@@ -86,7 +86,7 @@
 					</div>
 				</div>
 				<!-- Copyright -->
-				<div class="text-center border">
+				<div class="text-center border footer-bottom">
 					<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022
 					Tous droits réservés.
 				</div>
@@ -115,6 +115,7 @@ export default {
 </script>
 <style scoped>
 h3 {
+	font-size: clamp(24px, 5vw, 25px);
 	margin: 10px 0;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -178,5 +179,8 @@ a {
 .footer-content {
 	background-color: #dfede2;
 	color: #1c2f59;
+}
+.footer-bottom {
+	background: #b8ddc0;
 }
 </style>

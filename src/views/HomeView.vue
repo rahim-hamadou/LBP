@@ -23,9 +23,9 @@
 				<!-- </div> -->
 				<!-- Banner -->
 			</div>
-			<div class="container-fluid v-slider-bloc">
+			<div class="container-fluid">
 				<div
-					class="row d-flex flex-column align-items-center flex-md-row align-items-sm-center align-items-md-center"
+					class="row d-flex flex-column align-items-center flex-md-row mx-auto align-items-sm-center align-items-md-center"
 				>
 					<div class="col">
 						<h1>Les Belles Plantes, un salon de coiffure nature, BIO et vegan</h1>
@@ -44,6 +44,50 @@
 					</div>
 					<div class="col-sm-8 d-flex justify-content-center col-md-4">
 						<div class="card-info-1"></div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-8 d-flex justify-content-center col">
+							<div class="card-info-2"></div>
+							<div>
+								Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration végétale,
+								vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons également des
+								colorations alternatives, semi-végétales afin de se convertir en douceur vers le 100%
+								naturel. Le salon propose également de vous faire de magnifiques balayages ou ombrés, et
+								ce à l’argile !
+							</div>
+						</div>
+						<div class="row justify-content-sm-center justify-content-md-center">
+							<div class="col-sm-8 d-flex justify-content-center">
+								<div>
+									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
+									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
+									également des colorations alternatives, semi-végétales afin de se convertir en
+									douceur vers le 100% naturel. Le salon propose également de vous faire de
+									magnifiques balayages ou ombrés, et ce à l’argile !
+								</div>
+								<div class="card-info-3"></div>
+							</div>
+						</div>
+						<div class="row justify-content-sm-center">
+							<div class="col-sm-8 d-flex justify-content-center">
+								<div class="card-info-4"></div>
+								<div>
+									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
+									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
+									également des colorations alternatives, semi-végétales afin de se convertir en
+									douceur vers le 100% naturel. Le salon propose également de vous faire de
+									magnifiques balayages ou ombrés, et ce à l’argile !
+								</div>
+							</div>
+							<!-- <div class="col-sm-8 d-flex justify-content-center col-md-4">
+						<div class="card-info-3"></div>
+					</div>
+					<div class="col-sm-8 d-flex justify-content-center col-md-4">
+						<div class="card-info-4"></div>
+					</div> -->
+						</div>
 					</div>
 				</div>
 			</div>
@@ -102,8 +146,24 @@ export default {
 	margin: 0;
 }
 
-.card-info-1 {
-	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_4_xxxxxx.jpg");
+.card-info-2 {
+	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_9_xxx.jpg");
+	background-size: cover;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+	background-position: center;
+}
+.card-info-3 {
+	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_4_x.jpg");
+	background-size: cover;
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+	background-position: center;
+}
+.card-info-4 {
+	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_9.jpg");
 	background-size: cover;
 	overflow: hidden;
 	height: 300px;
@@ -119,6 +179,9 @@ export default {
 	height: 75vh;
 	align-items: center;
 	justify-content: center;
+}
+.illustration {
+	height: 300px;
 }
 
 /* snap-scroll
