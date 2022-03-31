@@ -61,13 +61,13 @@
 							<div class="row social">
 								<div class="col">
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-										<a href="https://fr-fr.facebook.com/salonlesbellesplantes/"
+										<a class="icon-name" href="https://fr-fr.facebook.com/salonlesbellesplantes/"
 											><BootstrapIcon icon="facebook" class="icon fb" />&nbsp;Facebook</a
 										>
 									</a>
 
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-										><a href="https://www.instagram.com/les.belles.plantes/?hl=fr"
+										><a class="icon-name" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
 											><BootstrapIcon icon="instagram" class="icon ig" />&nbsp;Instagram</a
 										></a
 									>
@@ -114,25 +114,15 @@ export default {
 };
 </script>
 <style scoped>
-/* .quote .text::before {
-	content: "“";
-}
-.quote .text::after {
-	content: "“";
-} */
-
 h3 {
 	margin: 10px 0;
-	/* font-size: calc(22 * var(--res)); */
 	font-weight: bold;
 	text-transform: uppercase;
-	/* font-size: 1.8vw; */
 }
 p,
 a {
 	padding: 0;
-	/* font-size: calc(22 * var(--res)); */
-	/* font-size: 1.5vw; */
+
 	text-decoration: none;
 }
 
@@ -170,7 +160,7 @@ a {
 	font-style: italic;
 	text-decoration: none;
 	background-size: 0 100;
-	background: linear-gradient(to top, wheat 0%, wheat 10%, transparent 80%) no-repeat left bottom / 0% 100%;
+	background: linear-gradient(to top, #b8ddc0 0%, #b8ddc0 10%, transparent 80%) no-repeat left bottom / 0% 100%;
 	transition: background-size 0.4s;
 }
 .author:hover {
@@ -178,6 +168,9 @@ a {
 }
 /* sourlignement */
 
+.icon-name {
+	color: #3b5998;
+}
 .footer-comp {
 	text-align: center;
 }

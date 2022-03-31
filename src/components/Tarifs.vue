@@ -7,7 +7,7 @@
 		<div class="container informations__prices">
 			<div class="row mx-auto justify-content-center">
 				<div class="row">
-					<h3>COLORATION VÉGÉTALE*</h3>
+					<h3 class="focus center">COLORATION VÉGÉTALE*</h3>
 					<h6>Blond cuivré / marron</h6>
 					<div class="col">
 						<h6>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="row mx-auto justify-content-center">
-				<h3>COLORATION ALTERNATIVE*</h3>
+				<h3 class="focus center">COLORATION ALTERNATIVE*</h3>
 				<p>application couleur shampoing soin massant séchage</p>
 				<ul>
 					<li>racine court {{ alternative.racineCourt }} /avec coupe {{ alternative.racineCourtCoupe }}</li>
@@ -66,7 +66,7 @@
 
 			<div class="row mx-auto justify-content-center">
 				<div class="col">
-					<h2>ÉCLAIRCISSEMENT À L'ARGILE</h2>
+					<h3 class="focus center">ÉCLAIRCISSEMENT À L'ARGILE</h3>
 
 					<ul>
 						<li>balayage à l'argile de {{ eclaircissement.balayageArgile }}</li>
@@ -76,7 +76,7 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<h2>COUPE* / AVEC BRUSH</h2>
+					<h3 class="focus center">COUPE* / AVEC BRUSH</h3>
 
 					<ul>
 						<li>coupe cheveux très courts (tondeuse/rasé) avec shampoing {{ coupe.cheveuxTresCourts }}</li>
@@ -97,7 +97,7 @@
 			</div>
 			<div class="col mx-auto justify-content-center v-slider-bloc">
 				<div class="col">
-					<h2>BRUSHING*</h2>
+					<h3 class="focus center">BRUSHING*</h3>
 
 					<ul>
 						<li>brushing cheveux courts soin massant {{ Brushing.cheveuxCourtSoin }}</li>
@@ -105,7 +105,7 @@
 					</ul>
 				</div>
 				<div class="col">
-					<h2>BRUSHING EN PLUS D'UN FORFAITS COUPE OU COULEUR</h2>
+					<h3 class="focus center">BRUSHING EN PLUS D'UN FORFAITS COUPE OU COULEUR</h3>
 
 					<ul>
 						<li>cheveux courts {{ BrushExtra.cheveuxCourts }}</li>
@@ -221,4 +221,24 @@ span {
 	scroll-snap-align: center;
 } */
 /* scroll */
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* sourlignement */
+/* .focus {
+	font-style: italic;
+	width: auto;
+	font-style: italic;
+	text-decoration: none;
+	background-size: 0 100;
+	background: linear-gradient(to top, #b8ddc0 0%, #b8ddc0 10%, transparent 80%) no-repeat left bottom / 0% 100%;
+	transition: background-size 0.4s;
+}
+.focus:hover {
+	background-size: 120% 20%;
+} */
+/* sourlignement */
 </style>
