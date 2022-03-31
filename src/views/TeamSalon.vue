@@ -45,9 +45,7 @@
 						<LaTeam
 							titleTeam="Le petit plus du salon
 "
-							contentTeam="Bien entendu, le Wi-Fi est à votre disposition pour faire partager à toutes vos connaissances votre bulle de décompression ! Si vous n'êtes pas du genre « connecté », des livres et magazines sont à votre disposition pour compléter ce rendez-vous. Nous faisons de votre rendez-vous un temps de coiffure intimiste et chaleureux afin de correspondre le mieux aux envies de chaque client. « Les Belles Plantes », c'est plus qu'un lieu de travail, c'est une véritable passion et une philosophie de vie que nous décidons de partager tous ensemble. Notre salon se veut respectueux des hommes et de l'environnement, et c'est pour cela que nous sommes presque zéro déchets ! Même vos cheveux sont récoltés et recyclés grâce à l'association Coiffeurs Justes. Nous sommes également alimentés par l'électricité verte de chez Enercoop, et nous vous proposons des shampooings que vous pourrez venir faire recharger au lieu d'en acheter des nouveaux !
-
-"
+							contentTeam="Bien entendu, le Wi-Fi est à votre disposition pour faire partager à toutes vos connaissances votre bulle de décompression ! Si vous n'êtes pas du genre « connecté », des livres et magazines sont à votre disposition pour compléter ce rendez-vous. Nous faisons de votre rendez-vous un temps de coiffure intimiste et chaleureux afin de correspondre le mieux aux envies de chaque client. « Les Belles Plantes », c'est plus qu'un lieu de travail, c'est une véritable passion et une philosophie de vie que nous décidons de partager tous ensemble. Notre salon se veut respectueux des hommes et de l'environnement, et c'est pour cela que nous sommes presque zéro déchets ! Même vos cheveux sont récoltés et recyclés grâce à l'association Coiffeurs Justes. Nous sommes également alimentés par l'électricité verte de chez Enercoop, et nous vous proposons des shampooings que vous pourrez venir faire recharger au lieu d'en acheter des nouveaux !"
 						></LaTeam>
 					</div>
 				</div>
