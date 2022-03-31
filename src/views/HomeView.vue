@@ -28,7 +28,7 @@
 					class="row d-flex flex-column align-items-center flex-md-row align-items-sm-center align-items-md-center"
 				>
 					<div class="col">
-						<h1>Les Belles Plantes, un salon de coiffure nature, BIO et vegan</h1>
+						<h1>Les Belles Plantes, un salon de coiffure nature, BIO et vegan ttt</h1>
 						<p class="description mx-3">
 							Le salon de coiffure « Les Belles Plantes » tire son nom des bienfaits naturels des végétaux
 							utilisés (henné, amla, indigo, camomille, curcuma, brou de noix....) pour réparer, mettre en
