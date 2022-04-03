@@ -3,7 +3,7 @@
 		<div class="row about p-0">
 			<!-- Footer -->
 
-			<footer class="text-center text-lg-start footer-content">
+			<footer class="text-center text-lg-start footer-content p-0">
 				<!-- Section: Links  -->
 
 				<div class="container text-center text-md-start mt-3">
@@ -17,13 +17,6 @@
 									&nbsp;: {{ vendredi }}<br />Samedi &nbsp;: {{ samedi }}<br />
 								</p>
 							</div>
-							<!-- <div class="row">
-								<p>
-									15 rue Jean Mace<br />Paris 75011<br /><BootstrapIcon icon="phone"></BootstrapIcon
-									>&nbsp;06 20 81 41 41<br /><BootstrapIcon icon="telephone"></BootstrapIcon>&nbsp;01
-									43 72 87 70<br />
-								</p>
-							</div> -->
 						</div>
 						<div class="col citation">
 							<div class="row"><h5>La presse parle de nous</h5></div>
