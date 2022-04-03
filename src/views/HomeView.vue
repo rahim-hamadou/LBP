@@ -1,5 +1,5 @@
 <template>
-	<div class="home">
+	<div class="home align-center">
 		<div class="mb-5">
 			<NavBarTop></NavBarTop>
 		</div>
@@ -23,7 +23,7 @@
 				<!-- </div> -->
 				<!-- Banner -->
 			</div>
-			<div class="container-fluid">
+			<div class="container-fluid w-100 mx-auto align-center">
 				<div
 					class="row d-flex flex-column align-items-center flex-md-row mx-auto align-items-sm-center align-items-md-center"
 				>
@@ -48,7 +48,7 @@
 						<div
 							class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
 						>
-							<div class="col card-info-2"></div>
+							<div class="row-md-5 row-sm-12 card-info-2"></div>
 							<div class="col-sm-12 col-md-7 text-description">
 								Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration végétale,
 								vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons également des
@@ -68,14 +68,14 @@
 									douceur vers le 100% naturel. Le salon propose également de vous faire de
 									magnifiques balayages ou ombrés, et ce à l’argile !
 								</div>
-								<div class="col card-info-3"></div>
+								<div class="row-md-5 row-sm-12 card-info-3"></div>
 							</div>
 						</div>
 						<div class="my-2 row justify-content-sm-center">
 							<div
 								class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
 							>
-								<div class="col card-info-4"></div>
+								<div class="row-md-5 row-sm-12 card-info-4"></div>
 								<div class="col-sm-12 col-md-7 text-description">
 									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
 									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
@@ -96,7 +96,7 @@
 			</div>
 		</div>
 
-		<div class="mt-5">
+		<div class="mt-5 p-0">
 			<FooterBottom></FooterBottom>
 		</div>
 	</div>
@@ -153,7 +153,7 @@ export default {
 	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_9_xxx.jpg");
 	background-size: cover;
 	overflow: hidden;
-	height: 30vh;
+	height: 300px;
 	width: 100%;
 	background-position: center;
 }

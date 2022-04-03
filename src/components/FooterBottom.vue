@@ -1,13 +1,13 @@
 <template>
 	<section>
-		<div class="row about">
+		<div class="row about p-0">
 			<!-- Footer -->
 
 			<footer class="text-center text-lg-start footer-content">
 				<!-- Section: Links  -->
 
 				<div class="container text-center text-md-start mt-3">
-					<div class="row flex-column flex-md-row footer-comp">
+					<div class="row d-flex flex-column flex-md-row footer-comp">
 						<div class="col">
 							<div class="row"><h5>Horaires d'ouverture</h5></div>
 							<div class="row">
