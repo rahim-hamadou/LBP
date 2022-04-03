@@ -42,15 +42,14 @@
 							gainés, revigorés et nourris véritablement.
 						</p>
 					</div>
-					<div class="col-sm-8 d-flex justify-content-center col-md-4">
-						<div class="card-info-1"></div>
-					</div>
 				</div>
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-8 d-flex justify-content-center col">
-							<div class="card-info-2"></div>
-							<div>
+				<div class="container-fluid my-3">
+					<div class="my-2 row d-flex justify-content-center align-items-center">
+						<div
+							class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
+						>
+							<div class="col card-info-2"></div>
+							<div class="col-sm-12 col-md-7 text-description">
 								Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration végétale,
 								vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons également des
 								colorations alternatives, semi-végétales afin de se convertir en douceur vers le 100%
@@ -58,22 +57,26 @@
 								ce à l’argile !
 							</div>
 						</div>
-						<div class="row justify-content-sm-center justify-content-md-center">
-							<div class="col-sm-8 d-flex justify-content-center">
-								<div>
+						<div class="my-2 row justify-content-sm-center justify-content-md-center">
+							<div
+								class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column-reverse flex-md-row"
+							>
+								<div class="col-sm-12 col-md-7 text-description">
 									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
 									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
 									également des colorations alternatives, semi-végétales afin de se convertir en
 									douceur vers le 100% naturel. Le salon propose également de vous faire de
 									magnifiques balayages ou ombrés, et ce à l’argile !
 								</div>
-								<div class="card-info-3"></div>
+								<div class="col card-info-3"></div>
 							</div>
 						</div>
-						<div class="row justify-content-sm-center">
-							<div class="col-sm-8 d-flex justify-content-center">
-								<div class="card-info-4"></div>
-								<div>
+						<div class="my-2 row justify-content-sm-center">
+							<div
+								class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
+							>
+								<div class="col card-info-4"></div>
+								<div class="col-sm-12 col-md-7 text-description">
 									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
 									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
 									également des colorations alternatives, semi-végétales afin de se convertir en
@@ -150,7 +153,7 @@ export default {
 	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_9_xxx.jpg");
 	background-size: cover;
 	overflow: hidden;
-	height: 300px;
+	height: 30vh;
 	width: 100%;
 	background-position: center;
 }
@@ -184,6 +187,9 @@ export default {
 	height: 300px;
 }
 
+.text-description {
+	padding: 20px;
+}
 /* snap-scroll
 .container-fluid {
 	height: 100vh;
