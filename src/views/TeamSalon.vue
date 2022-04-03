@@ -94,7 +94,7 @@
 					</div>
 
 					<div class="balance row v-slider-bloc">
-						<div class="col-sm-12 col-md-7 p-2">
+						<div class="col-sm-12 col-md-7 w-100 p-2">
 							<HairCare
 								titleHair=""
 								contentHair="Pour sublimer la beauté de ses coupes et couleur, nous disposons d'un comptoir à maquillage entièrement BIO, végan et rechargeable de la marque ZAO dans lequel vous pourrez piocher les produits qui vous conviennent. L’équipe saura évidemment aiguiller les indécises pour qu’elles puissent sortir du salon en étant pleinement épanouies. Enfin, des ateliers d’initiation / coaching avec une maquilleuse, une spécialiste des huiles essentielles et végétales ou d’autres intervenants dans le domaine de la beauté seront mis en place tout au long de l’année et resteront accessible sur réservation. (Pour être tenu des actualités, suivez nous sur Facebook et Instagram)
@@ -158,19 +158,19 @@ export default {
 .v-slider-bloc {
 	margin: 20px 0;
 }
-.v-slider-bloc:nth-child(1) {
+/* .v-slider-bloc:nth-child(1) {
 	background-color: red;
-}
-.v-slider-bloc:nth-child(2) {
+} */
+/* .v-slider-bloc:nth-child(2) {
 	background-color: rgb(28, 138, 34);
-}
-.v-slider-bloc + .banner {
+} */
+/* .v-slider-bloc + .banner {
 	background-color: rgb(0, 110, 255);
 	height: 90vh;
-}
-.v-slider-bloc:nth-child(4) {
+} */
+/* .v-slider-bloc:nth-child(4) {
 	background-color: rgb(194, 146, 41);
-}
+} */
 
 /* snap-scroll */
 
