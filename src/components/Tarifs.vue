@@ -12,44 +12,40 @@
 					<div class="col">
 						<h6>
 							1 application (reflets et transparence des cheveux blancs) shampooing + soin massant +
-							séchage /brush
+							séchage
 						</h6>
 						<ul>
 							<li>
 								cheveux courts {{ vegetale.simple.cheveuxCourts }} / avec coupe
-								{{ vegetale.simple.cheveuxCourtsCoupe }} / brush
-								{{ vegetale.simple.cheveuxCourtsBrush }}
+								{{ vegetale.simple.cheveuxCourtsCoupe }}
 							</li>
 							<li>
 								cheveux mi longs {{ vegetale.simple.cheveuxMiLongs }} / avec coupe
-								{{ vegetale.simple.cheveuxMiLongsCoupe }} / brush
-								{{ vegetale.simple.cheveuxMiLongsBrush }}
+								{{ vegetale.simple.cheveuxMiLongsCoupe }}
 							</li>
 							<li>
 								cheveux longs {{ vegetale.simple.cheveuxlongs }} / avec coupe
-								{{ vegetale.simple.cheveuxLongsCoupe }} / brush {{ vegetale.simple.cheveuxLongsBrush }}
+								{{ vegetale.simple.cheveuxLongsCoupe }}
 							</li>
 						</ul>
 					</div>
 					<div class="col">
 						<h6>
 							2 applications (100% couverture des cheveux blancs) marron ou brun + shampoing + soin
-							massant + séchage / brush
+							massant + séchage
 						</h6>
 						<ul>
 							<li>
 								cheveux courts {{ vegetale.double.cheveuxCourts }} / avec coupe
-								{{ vegetale.double.cheveuxCourtsCoupe }} / brush
-								{{ vegetale.double.cheveuxCourtsBrush }}
+								{{ vegetale.double.cheveuxCourtsCoupe }}
 							</li>
 							<li>
 								cheveux mi longs {{ vegetale.double.cheveuxMiLongs }} / avec coupe
-								{{ vegetale.double.cheveuxMiLongsCoupe }} / brush
-								{{ vegetale.double.cheveuxMiLongsBrush }}
+								{{ vegetale.double.cheveuxMiLongsCoupe }}
 							</li>
 							<li>
 								cheveux longs {{ vegetale.double.cheveuxlongs }} / avec coupe
-								{{ vegetale.double.cheveuxLongsCoupe }} / brush {{ vegetale.double.cheveuxLongsBrush }}
+								{{ vegetale.double.cheveuxLongsCoupe }}
 							</li>
 						</ul>
 					</div>
@@ -57,21 +53,15 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<h3 class="focus center">COUPE* / AVEC BRUSH</h3>
+					<h3 class="focus center">COUPE*</h3>
 
 					<ul>
 						<li>coupe cheveux très courts (tondeuse/rasé) avec shampoing {{ coupe.cheveuxTresCourts }}</li>
-						<li>
-							coupe cheveux courts avec shampoing soin massant séchage {{ coupe.cheveuxCourts }} /
-							{{ coupe.cheveuxCourtsbrush }}
-						</li>
-						<li>
-							coupe cheveux longs shampoing soin massant séchage {{ coupe.cheveuxLongs }} /
-							{{ coupe.cheveuxLongsBrush }}
-						</li>
+						<li>coupe cheveux courts avec shampoing soin massant séchage {{ coupe.cheveuxCourts }}</li>
+						<li>coupe cheveux longs shampoing soin massant séchage {{ coupe.cheveuxLongs }}</li>
 						<li>
 							coupe tranformation avec conseil morpho shampoing soin massant séchage
-							{{ coupe.cheveuxTransfo }} / {{ coupe.cheveuxTransfoBrush }}
+							{{ coupe.cheveuxTransfo }}
 						</li>
 					</ul>
 				</div>
