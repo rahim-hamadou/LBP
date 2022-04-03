@@ -10,8 +10,8 @@
 					<h1>L'histoire des Belles Plantes, un salon de coiffure unique.</h1>
 				</div>
 
-				<div class="row-sm-8 d-flex justify-content-center align-items-center flex-column-reverse flex-md-row">
-					<div class="col-sm-12 col-md-7 p-2">
+				<div class="row v-slider-bloc">
+					<div class="col-9">
 						<LaTeam
 							titleTeam="Pourquoi Les Belles Plantes pour un salon de coiffure ?
 "
@@ -20,12 +20,13 @@
 "
 						></LaTeam>
 					</div>
-					<div class="row-md-5 row-sm-12 banner-img-1 v-slider-bloc banner"></div>
+				</div>
+				<div class="col banner-img v-slider-bloc banner">
+					<!-- <img src="" alt="" /> -->
 				</div>
 
-				<div class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row">
-					<div class="row-md-5 row-sm-12 banner-img v-slider-bloc banner"></div>
-					<div class="col-sm-12 col-md-7 p-2">
+				<div class="row v-slider-bloc">
+					<div class="col-9">
 						<LaTeam
 							titleTeam="Un endroit dédié à vos cheveux et à votre confort
 "
@@ -35,23 +36,21 @@
 						></LaTeam>
 					</div>
 				</div>
+				<div class="col banner-img v-slider-bloc banner">
+					<!-- <img src="" alt="" /> -->
+				</div>
 
-				<div
-					class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column-reverse flex-md-row"
-				>
-					<div class="col-sm-12 col-md-7 p-2">
+				<div class="row v-slider-bloc">
+					<div class="col-9">
 						<LaTeam
 							titleTeam="Le petit plus du salon
 "
 							contentTeam="Bien entendu, le Wi-Fi est à votre disposition pour faire partager à toutes vos connaissances votre bulle de décompression ! Si vous n'êtes pas du genre « connecté », des livres et magazines sont à votre disposition pour compléter ce rendez-vous. Nous faisons de votre rendez-vous un temps de coiffure intimiste et chaleureux afin de correspondre le mieux aux envies de chaque client. « Les Belles Plantes », c'est plus qu'un lieu de travail, c'est une véritable passion et une philosophie de vie que nous décidons de partager tous ensemble. Notre salon se veut respectueux des hommes et de l'environnement, et c'est pour cela que nous sommes presque zéro déchets ! Même vos cheveux sont récoltés et recyclés grâce à l'association Coiffeurs Justes. Nous sommes également alimentés par l'électricité verte de chez Enercoop, et nous vous proposons des shampooings que vous pourrez venir faire recharger au lieu d'en acheter des nouveaux !"
 						></LaTeam>
 					</div>
-					<div
-						class="row-md-5 row-sm-12 d-flex justify-content-around align-items-end banner-img-2 v-slider-bloc banner"
-					>
-						<p><a href="{{ enercoop }}">Enercoop</a></p>
-						<p><a href="{{ coiffeursJustes }}">CoiffeursJustes</a></p>
-					</div>
+				</div>
+				<div class="col banner-img v-slider-bloc banner">
+					<!-- <img src="" alt="" /> -->
 				</div>
 			</div>
 			<div class="my-3">
@@ -63,10 +62,8 @@
 				</div>
 
 				<div class="">
-					<div
-						class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column-reverse flex-md-row"
-					>
-						<div class="col-sm-12 col-md-7 p-2">
+					<div class="row v-slider-bloc">
+						<div class="col-9">
 							<HairCare
 								titleHair="Retrouvez vos habitudes aux Belles Plantes
 "
@@ -75,14 +72,12 @@
 "
 							></HairCare>
 						</div>
-						<div class="row-md-5 row-sm-12 banner-img-3 v-slider-bloc banner"></div>
 					</div>
-
-					<div
-						class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
-					>
-						<div class="row-md-5 row-sm-12 banner-img v-slider-bloc banner"></div>
-						<div class="col-sm-12 col-md-7 p-2">
+					<div class="col banner-img v-slider-bloc banner">
+						<!-- <img src="" alt="" /> -->
+					</div>
+					<div class="row v-slider-bloc">
+						<div class="col-9">
 							<HairCare
 								titleHair="Les Belles Plantes, bien plus qu'un salon de coiffure
 "
@@ -92,9 +87,12 @@
 							></HairCare>
 						</div>
 					</div>
+					<div class="col banner-img v-slider-bloc banner">
+						<!-- <img src="" alt="" /> -->
+					</div>
 
-					<div class="balance row v-slider-bloc">
-						<div class="col-sm-12 col-md-7 p-2">
+					<div class="row v-slider-bloc">
+						<div class="col-9">
 							<HairCare
 								titleHair=""
 								contentHair="Pour sublimer la beauté de ses coupes et couleur, nous disposons d'un comptoir à maquillage entièrement BIO, végan et rechargeable de la marque ZAO dans lequel vous pourrez piocher les produits qui vous conviennent. L’équipe saura évidemment aiguiller les indécises pour qu’elles puissent sortir du salon en étant pleinement épanouies. Enfin, des ateliers d’initiation / coaching avec une maquilleuse, une spécialiste des huiles essentielles et végétales ou d’autres intervenants dans le domaine de la beauté seront mis en place tout au long de l’année et resteront accessible sur réservation. (Pour être tenu des actualités, suivez nous sur Facebook et Instagram)
@@ -103,11 +101,12 @@
 							></HairCare>
 						</div>
 					</div>
-					<div class="row-md-5 row-sm-12 banner-img-4 v-slider-bloc banner"></div>
+					<div class="col banner-img v-slider-bloc banner">
+						<!-- <img src="" alt="" /> -->
+					</div>
 				</div>
 			</div>
 		</div>
-
 		<FooterBottom></FooterBottom>
 	</div>
 	<!-- </div> -->
@@ -129,34 +128,24 @@ export default {
 		HairCare,
 		MapInfo,
 	},
-	data() {
-		return {
-			enercoop: "https://www.enercoop.fr/",
-			coiffeursJustes: "https://coiffeurs-justes.com/",
-		};
-	},
 };
 </script>
 <style scoped>
 /* snap-scroll */
-/* .container-fluid {
+.container-fluid {
 	height: 80vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
-} */
+}
 
-/* .v-slider-bloc {
+.v-slider-bloc {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
+	/* font-size: 40px; */
 	border-bottom: 5px solid black;
 	height: 100vh;
 	scroll-snap-align: center;
-} */
-
-.v-slider-bloc {
-	margin: 20px 0;
 }
 .v-slider-bloc:nth-child(1) {
 	background-color: red;
@@ -174,11 +163,11 @@ export default {
 
 /* snap-scroll */
 
-/* .border {
+.border {
 	border: 12px solid black;
-} */
+}
 .banner-img {
-	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_9_xxx.jpg");
+	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_4_xxxxxx.jpg");
 
 	overflow: hidden;
 	height: 300px;
@@ -186,34 +175,37 @@ export default {
 	background-position: center;
 	background-size: cover;
 }
-.banner-img-1 {
+.banner-img:nth-child(1) {
 	background: url("../assets/gallery/plantes-vertes-66.jpeg");
 	background-position: center;
 	background-size: cover;
-	height: 300px;
-	width: 100%;
 }
-
-.banner-img-2 {
-	background: url("../assets/gallery/plantes-vertes-6.jpeg");
+.banner-img:nth-child(2) {
+	background: url("../assets/gallery/plantes-vertes-11.jpeg");
 	background-position: center;
 	background-size: cover;
-	height: 300px;
-	width: 100%;
 }
-.banner-img-3 {
+.banner-img:nth-child(3) {
 	background: url("../assets/gallery/plantes-vertes-22.jpeg");
 	background-position: center;
 	background-size: cover;
-	height: 300px;
-	width: 100%;
 }
-.banner-img-4 {
-	background: url("../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_13_8.jpg");
+.banner-img:nth-child(4) {
+	background: url("../assets/gallery/plantes-vertes-33.jpeg");
 	background-position: center;
 	background-size: cover;
-
-	/* last */
+}
+.banner-img:nth-child(5) {
+	background: url("../assets/gallery/plantes-vertes-00.jpeg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.banner-img:nth-child(6) {
+	background: url("../assets/gallery/plantes-vertes-55.jpeg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 /* MAP */
@@ -221,12 +213,4 @@ export default {
 	width: 100%;
 }
 /* MAP */
-
-/* General */
-.balance {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-/* General */
 </style>

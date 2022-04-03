@@ -9,7 +9,17 @@
 <script>
 export default {
 	name: "HairCare",
-	props: { titleHair: String, contentHair: String },
+	props: {
+		titleHair: String,
+		contentHair: String,
+		contentHairPlus: String,
+		linkElect: String,
+	},
+	data() {
+		return {
+			enercoop: "https://www.enercoop.fr/",
+		};
+	},
 };
 </script>
 <style lang="scss" scoped></style>
