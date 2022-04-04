@@ -141,7 +141,7 @@ export default {
 
 .btn-booking {
 	color: white;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	background-color: #1c334f;
 	padding: 10px;
 	text-decoration: none;

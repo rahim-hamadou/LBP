@@ -11,7 +11,7 @@
 				</div>
 
 				<div class="row-sm-8 d-flex justify-content-center align-items-center flex-column-reverse flex-md-row">
-					<div data-aos="fade-up" data-aos-delay="600" class="col-sm-12 col-md-7 p-2">
+					<div data-aos="fade-up" class="col-sm-12 col-md-7 p-2">
 						<LaTeam
 							titleTeam="Pourquoi Les Belles Plantes pour un salon de coiffure ?
 "

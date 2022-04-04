@@ -7,12 +7,12 @@
 		<div class="container informations__prices">
 			<div class="row mx-auto justify-content-center">
 				<div class="row">
-					<h3 class="focus center">COLORATION VÉGÉTALE*</h3>
-					<h6>Blond cuivré / marron</h6>
+					<h3 class="focus center mb-3">COLORATION VÉGÉTALE*</h3>
+					<!-- <h6>Blond cuivré / marron</h6> -->
 					<div data-aos="fade-right" class="col">
 						<h6>
-							1 application (reflets et transparence des cheveux blancs) shampooing + soin massant +
-							séchage
+							1 application (Blond cuivré / marron ,reflets et transparence des cheveux blancs) shampooing
+							+ soin massant + séchage
 						</h6>
 						<ul>
 							<li>
