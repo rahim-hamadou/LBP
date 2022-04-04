@@ -9,15 +9,8 @@
 				<div class="row my-4">
 					<div class="row flex-md-row flex-sm-column">
 						<div class="col"><TarifsInfo /></div>
-						<!-- <div class="col"><ContactInfo></ContactInfo></div> -->
 					</div>
 				</div>
-
-				<!-- <div class="row mx-auto justify-content-center loca v-slider-bloc">
-					<div class="col mx-auto my-4">
-						<MapInfo></MapInfo>
-					</div>
-				</div> -->
 			</div>
 		</div>
 

@@ -7,10 +7,16 @@
 			<!-- <div class="v-slider-bloc"> -->
 			<!-- Banner -->
 			<div class="col bg-lbp mx-0 my-4 flex-column header-top">
-				<div class="col logo my-4">
+				<div
+					data-aos="fade-down"
+					data-aos-duration="800"
+					data-aos-delay="50"
+					data-aos-mirror="true"
+					class="col logo my-4"
+				>
 					<img src="../assets/bg/LBP_logo.png" alt="logo du salon de coiffure les belles plantes" />
 				</div>
-				<div class="col my-1">
+				<div data-aos="zoom-in-up" data-aos-delay="350" class="col my-1">
 					<button type="button" class="btn btn-booking">
 						<a
 							class="btn-booking booking"
@@ -48,7 +54,7 @@
 						<div
 							class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
 						>
-							<div class="row-md-5 row-sm-12 card-info-2"></div>
+							<div data-aos="fade-right" class="row-md-5 row-sm-12 card-info-2"></div>
 							<div class="col-sm-12 col-md-7 text-description">
 								Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration végétale,
 								vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons également des
@@ -68,14 +74,14 @@
 									douceur vers le 100% naturel. Le salon propose également de vous faire de
 									magnifiques balayages ou ombrés, et ce à l’argile !
 								</div>
-								<div class="row-md-5 row-sm-12 card-info-3"></div>
+								<div data-aos="fade-left" class="row-md-5 row-sm-12 card-info-3"></div>
 							</div>
 						</div>
 						<div class="my-2 row justify-content-sm-center">
 							<div
 								class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row"
 							>
-								<div class="row-md-5 row-sm-12 card-info-4"></div>
+								<div data-aos="fade-right" class="row-md-5 row-sm-12 card-info-4"></div>
 								<div class="col-sm-12 col-md-7 text-description">
 									Retrouvez vos habitudes aux Belles Plantes Pour tous les friands de coloration
 									végétale, vous trouverez votre bonheur dans notre salon de coiffure. Nous proposons
@@ -84,12 +90,6 @@
 									magnifiques balayages ou ombrés, et ce à l’argile !
 								</div>
 							</div>
-							<!-- <div class="col-sm-8 d-flex justify-content-center col-md-4">
-						<div class="card-info-3"></div>
-					</div>
-					<div class="col-sm-8 d-flex justify-content-center col-md-4">
-						<div class="card-info-4"></div>
-					</div> -->
 						</div>
 					</div>
 				</div>
@@ -143,7 +143,7 @@ export default {
 	color: white;
 	font-size: 2rem;
 	background-color: #1c334f;
-	padding: 10px 15px;
+	padding: 10px;
 	text-decoration: none;
 	width: auto;
 	margin: 0;

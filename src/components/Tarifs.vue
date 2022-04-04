@@ -1,6 +1,6 @@
 <template>
 	<div class="tarif">
-		<div class="my-4">
+		<div data-aos="fade-down" data-aos-duration="800" data-aos-delay="50" class="my-4">
 			<h1>Prix de nos prestations</h1>
 		</div>
 
@@ -9,7 +9,7 @@
 				<div class="row">
 					<h3 class="focus center">COLORATION VÉGÉTALE*</h3>
 					<h6>Blond cuivré / marron</h6>
-					<div class="col">
+					<div data-aos="fade-right" class="col">
 						<h6>
 							1 application (reflets et transparence des cheveux blancs) shampooing + soin massant +
 							séchage
@@ -29,7 +29,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col">
+					<div data-aos="fade-left" class="col">
 						<h6>
 							2 applications (100% couverture des cheveux blancs) marron ou brun + shampoing + soin
 							massant + séchage
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col">
+				<div data-aos="fade-up-right" class="col">
 					<h3 class="focus center">COUPE*</h3>
 
 					<ul>
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 
-			<div class="row mx-auto justify-content-center">
+			<div data-aos="fade-up-left" class="row mx-auto justify-content-center">
 				<div class="col">
 					<h3 class="focus center">ÉCLAIRCISSEMENT À L'ARGILE</h3>
 
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 
-			<div class="row mx-auto justify-content-center">
+			<div data-aos="fade-right" class="row mx-auto justify-content-center">
 				<h3 class="focus center">COLORATION ALTERNATIVE*</h3>
 				<p>application couleur shampoing soin massant séchage</p>
 				<ul>
@@ -87,7 +87,7 @@
 				</ul>
 			</div>
 			<div class="col mx-auto justify-content-center v-slider-bloc">
-				<div class="col">
+				<div data-aos="fade-left" class="col">
 					<h3 class="focus center">BRUSHING*</h3>
 
 					<ul>
@@ -95,7 +95,7 @@
 						<li>brushing cheveux longs soin massant {{ Brushing.cheveuxLongSoin }}</li>
 					</ul>
 				</div>
-				<div class="col">
+				<div data-aos="fade-right" class="col">
 					<h3 class="focus center">BRUSHING EN PLUS D'UN FORFAITS COUPE OU COULEUR</h3>
 
 					<ul>
@@ -104,14 +104,14 @@
 						<li>cheveux longs {{ BrushExtra.cheveuxlongs }}</li>
 					</ul>
 				</div>
-				<div class="col">
+				<div data-aos="fade-left" class="col">
 					<h3 class="focus center">SOIN</h3>
 
 					<ul>
 						<li>soin hydratant (20min) séchage {{ Soin.soinHydra }}</li>
 					</ul>
 				</div>
-				<div class="row mt-3 justify-content-center">
+				<div data-aos="fade-up" class="row mt-3 justify-content-center">
 					<p class="alias mt-0">*supplément de 10 à 20 euros en fonction de l'épaisseur</p>
 				</div>
 			</div>

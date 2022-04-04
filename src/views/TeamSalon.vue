@@ -6,12 +6,12 @@
 
 		<div class="container-fluid my-5">
 			<div class="">
-				<div class="row v-slider-bloc">
-					<h1>L'histoire des Belles Plantes, un salon de coiffure unique.</h1>
+				<div data-aos="fade-down" data-aos-duration="800" data-aos-delay="50" class="row v-slider-bloc">
+					<h1 class="mt-3">L'histoire des Belles Plantes, un salon de coiffure unique.</h1>
 				</div>
 
 				<div class="row-sm-8 d-flex justify-content-center align-items-center flex-column-reverse flex-md-row">
-					<div class="col-sm-12 col-md-7 p-2">
+					<div data-aos="fade-up" data-aos-delay="600" class="col-sm-12 col-md-7 p-2">
 						<LaTeam
 							titleTeam="Pourquoi Les Belles Plantes pour un salon de coiffure ?
 "
@@ -25,7 +25,7 @@
 
 				<div class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column flex-md-row">
 					<div class="row-md-5 row-sm-12 banner-img v-slider-bloc banner"></div>
-					<div class="col-sm-12 col-md-7 p-2">
+					<div data-aos="fade-up" class="col-sm-12 col-md-7 p-2">
 						<LaTeam
 							titleTeam="Un endroit dédié à vos cheveux et à votre confort
 "
@@ -39,7 +39,7 @@
 				<div
 					class="row-sm-8 d-flex justify-content-center w-100 align-items-center flex-column-reverse flex-md-row"
 				>
-					<div class="col-sm-12 col-md-7 p-2">
+					<div data-aos="fade-up" class="col-sm-12 col-md-7 p-2">
 						<LaTeam
 							titleTeam="Le petit plus du salon
 "
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="my-3">
-				<div class="row v-slider-bloc">
+				<div data-aos="fade-up" class="row v-slider-bloc">
 					<h1>Venez découvrir la coiffure végétale dans notre salon</h1>
 				</div>
 				<div class="col mx-auto my-4 v-slider-bloc">

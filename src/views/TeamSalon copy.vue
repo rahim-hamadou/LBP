@@ -6,7 +6,7 @@
 
 		<div class="container-fluid my-5">
 			<div class="">
-				<div class="row v-slider-bloc">
+				<div data-aos="fade-up" class="row v-slider-bloc">
 					<h1>L'histoire des Belles Plantes, un salon de coiffure unique.</h1>
 				</div>
 

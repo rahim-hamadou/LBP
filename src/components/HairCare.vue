@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div data-aos="fade-up">
 		<h2>{{ titleHair }}</h2>
 		<p>
 			{{ contentHair }}
