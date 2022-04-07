@@ -22,3 +22,9 @@ export default {
 	components: { CarouselDemo, NavBarTop, FooterBottom },
 };
 </script>
+
+<style scoped>
+h1 {
+	font-family: "Comic Neue", cursive;
+}
+</style>

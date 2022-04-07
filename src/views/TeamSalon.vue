@@ -151,6 +151,9 @@ export default {
 };
 </script>
 <style scoped>
+h1 {
+	font-family: "Comic Neue", cursive;
+}
 /* snap-scroll */
 /* .container-fluid {
 	height: 80vh;

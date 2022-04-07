@@ -127,6 +127,9 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+	font-family: "Comic Neue", cursive;
+}
 .bg-lbp {
 	background: url("../assets/bg/LBP_BG.jpg");
 	/* background: url("../assets/bg/LBP_logo.png"); */

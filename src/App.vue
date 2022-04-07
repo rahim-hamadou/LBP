@@ -60,6 +60,8 @@ a:visited {
 // }
 // import
 @import url(../src/scss/main.scss);
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap");
 // import
 
 // Main
