@@ -170,10 +170,10 @@ a {
 }
 
 .footer-content {
-	background-color: #dfede2;
+	background-color: #cde6f5;
 	color: #1c2f59;
 }
 .footer-bottom {
-	background: #b8ddc0;
+	background: #8dafc2;
 }
 </style>

@@ -109,7 +109,7 @@ export default {
 	height: 2px;
 	bottom: 0;
 	left: 0;
-	background-color: #42b983;
+	background-color: #fff;
 	transform-origin: bottom right;
 	transition: transform 0.25s ease-out;
 }
@@ -123,7 +123,7 @@ export default {
 // Tools
 // Header
 .navigation-bar {
-	background-color: #dfede2;
+	background-color: #8dafc2;
 }
 nav {
 	padding: 0px;
@@ -133,7 +133,7 @@ nav {
 		color: #000;
 
 		&.router-link-exact-active {
-			color: #42b983;
+			color: #fff;
 		}
 	}
 }
