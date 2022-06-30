@@ -12,7 +12,7 @@
 							<div class="row"><h5>Horaires d'ouverture</h5></div>
 							<div class="row">
 								<p>
-									Lun&nbsp;: FERMÉ<br />
+									Lundi&nbsp;: Fermé<br />
 									Du Mardi au Mercredi&nbsp;: {{ mardi }}<br />Jeudi &nbsp;: {{ jeudi }}<br />Vendredi
 									&nbsp;: {{ vendredi }}<br />Samedi &nbsp;: {{ samedi }}<br />
 								</p>
@@ -81,8 +81,11 @@
 				<!-- Copyright -->
 				<div class="text-center border footer-bottom">
 					<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022
-					Tous droits réservés.
+					Tous droits réservés
+					<a class="text-reset fw-bold" href="https://rahim-hamadou.netlify.app"> A2R-Digital </a> Rahim
+					Hamadou
 				</div>
+
 				<!-- Copyright -->
 
 				<!-- Section: Links  -->
