@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 // base
 * {
+	overflow-x: hidden;
 	::before,
 	::after {
 		box-sizing: border-box;
@@ -33,6 +34,7 @@ export default {
 }
 
 html {
+	overflow-x: hidden;
 	// --res: calc(0.01 * 10vmin);
 	font-size: clamp(13px, 5vw, 20px);
 }

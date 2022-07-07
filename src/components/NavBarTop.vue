@@ -1,8 +1,8 @@
 <template>
-	<div>
+	<div class="container">
 		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light nav-top">
-			<div class="container-fluid navigation-bar">
-				<a class="navbar-brand me-0 nav-content" href="#" title="les belles plantes"
+			<div class="container-fluid navigation-bar test">
+				<a class="navbar-brand me-0 nav-content nameSite" href="#" title="les belles plantes"
 					>Les Belles Plantes<i class="bi-alarm"></i>
 				</a>
 
@@ -32,26 +32,36 @@
 						<li class="nav-item hover-underline-animation">
 							<router-link cl to="/gallery">Galerie</router-link>
 						</li>
+						<li class="nav-item hover-underline-animation">
+							<!-- <router-link cl to="/gallery">Galerie</router-link> -->
+							<a
+								class="btn-booking booking"
+								href="https://widget.treatwell.fr/salon/les-belles-plantes/"
+								target="_blank"
+								>Réserver</a
+							>
+						</li>
 					</ul>
 					<!-- social -->
 
 					<div class="social">
 						<ul class="social d-flex justify-content-center">
 							<li class="nav-item">
-								<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+								<a class="nav-link logoSocial" href="#" tabindex="-1" aria-disabled="true">
 									<a class="fb" href="https://fr-fr.facebook.com/salonlesbellesplantes/"
 										><BootstrapIcon icon="facebook" class="icon fb"
 									/></a>
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+								<a class="nav-link logoSocial" href="#" tabindex="-1" aria-disabled="true"
 									><a class="ig" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
 										><BootstrapIcon icon="instagram" class="icon ig" /></a
 								></a>
 							</li>
 						</ul>
 					</div>
+					<div class="social"></div>
 					<!-- social -->
 				</div>
 			</div>
@@ -70,6 +80,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+//title
+
+.nameSite {
+	font-family: "Comic Neue", cursive;
+	&:hover {
+		color: white;
+	}
+}
 // Tools
 .blue {
 	background-color: blue;
@@ -124,8 +142,10 @@ export default {
 // Header
 .navigation-bar {
 	background-color: #8dafc2;
+	padding: 0;
 }
 nav {
+	width: 100%;
 	padding: 0px;
 
 	a {
@@ -168,13 +188,21 @@ li .nav-item:hover {
 .social li {
 	margin: 0;
 }
+.logoSocial {
+	padding: 0;
+	margin: 0 15px;
+}
 
 .ig {
+	padding: 0;
+	//margin: 15px;
 	color: #f46f30;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 }
 .fb {
+	padding: 10;
+	//margin: 15px;
 	color: #3b5998;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;

@@ -4,6 +4,7 @@
 		<p>
 			{{ contentHair }}
 		</p>
+		<div v-html="data"></div>
 	</div>
 </template>
 <script>

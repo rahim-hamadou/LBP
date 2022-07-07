@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<div class="row about p-0">
+		<div class="row about p-0 footer">
 			<!-- Footer -->
 
 			<footer class="text-center text-lg-start footer-content p-0">
@@ -18,7 +18,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="col citation">
+						<div class="col citation d-none d-lg-block">
 							<div class="row"><h5>La presse parle de nous</h5></div>
 							<div class="row">
 								<div class="quote">
@@ -62,6 +62,12 @@
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
 										><a class="icon-name" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
 											><BootstrapIcon icon="instagram" class="icon ig" />&nbsp;Instagram</a
+										></a
+									>
+									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+										><a class="icon-name" href="https://goo.gl/maps/mVJEDLnYLrSXH6Pw8"
+											><BootstrapIcon icon="geo-alt" class="icon geo-alt" />&nbsp;15 Rue
+											Jean-Macé, 75011 Paris</a
 										></a
 									>
 									<div class="row my-1">

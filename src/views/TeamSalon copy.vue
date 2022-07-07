@@ -101,6 +101,9 @@
 							></HairCare>
 						</div>
 					</div>
+					<div class="row v-slider-bloc">
+						<PressInfo />
+					</div>
 					<div class="col banner-img v-slider-bloc banner">
 						<!-- <img src="" alt="" /> -->
 					</div>
