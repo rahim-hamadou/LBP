@@ -215,7 +215,7 @@ span {
 }
 
 .alias {
-	border-radius: 5px;
+	border-radius: 8px;
 	background-color: #cde6f5;
 	margin: 0;
 	width: fit-content;

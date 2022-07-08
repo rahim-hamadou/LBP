@@ -19,6 +19,9 @@ import NavBarTop from "@/components/NavBarTop.vue";
 
 export default {
 	name: "GalleryView",
+	created() {
+		document.title = "En images";
+	},
 	components: { CarouselDemo, NavBarTop, FooterBottom },
 };
 </script>

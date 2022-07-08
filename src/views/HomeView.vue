@@ -112,6 +112,9 @@ import NavBarTop from "@/components/NavBarTop.vue";
 
 export default {
 	name: "HomeView",
+	created() {
+		document.title = "Accueil";
+	},
 	components: {
 		NavBarTop,
 		// CardInfo,

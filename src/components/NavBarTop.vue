@@ -1,8 +1,11 @@
 <template>
 	<div class="container">
 		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light nav-top">
-			<div class="container-fluid navigation-bar test">
-				<a class="navbar-brand me-0 nav-content nameSite" href="#" title="les belles plantes"
+			<div class="container-fluid navigation-bar navigation-place">
+				<a
+					class="navbar-brand me-0 nav-content nameSite"
+					href="https://lesbellesplantes.fr/"
+					title="les belles plantes"
 					>Les Belles Plantes<i class="bi-alarm"></i>
 				</a>
 
@@ -87,6 +90,9 @@ export default {
 	&:hover {
 		color: white;
 	}
+}
+.navigation-place {
+	padding: 0 15px !important;
 }
 // Tools
 .blue {

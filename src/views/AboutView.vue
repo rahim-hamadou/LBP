@@ -29,6 +29,9 @@ import NavBarTop from "@/components/NavBarTop.vue";
 
 export default {
 	name: "AboutView",
+	created() {
+		document.title = "Une envie ?";
+	},
 	components: {
 		TarifsInfo,
 		// MapInfo,

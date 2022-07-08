@@ -141,6 +141,9 @@ import MapInfo from "@/components/MapInfo.vue";
 
 export default {
 	name: "TeamSalon",
+	created() {
+		document.title = "Qui sommes nous ?";
+	},
 	components: {
 		// LeCheveux,
 		LaTeam,
