@@ -195,8 +195,8 @@ li .nav-item:hover {
 	margin: 0;
 }
 .logoSocial {
-	padding: 0;
-	margin: 0 15px;
+	padding: 0 15px;
+	margin: 0;
 }
 
 .ig {
