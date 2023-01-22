@@ -18,7 +18,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="col citation d-none d-lg-block">
+						<!-- <div class="col citation d-none d-lg-block">
 							<div class="row"><h5>La presse parle de nous</h5></div>
 							<div class="row">
 								<div class="quote">
@@ -48,24 +48,33 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="col">
 							<div class="row"><h5>Nous Joindre</h5></div>
 							<div class="row social">
 								<div class="col">
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-										<a class="icon-name" href="https://fr-fr.facebook.com/salonlesbellesplantes/"
+										<a
+											target="blank"
+											class="icon-name fb-link"
+											href="https://fr-fr.facebook.com/salonlesbellesplantes/"
 											><BootstrapIcon icon="facebook" class="icon fb" />&nbsp;Facebook</a
 										>
 									</a>
 
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-										><a class="icon-name" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
+										><a
+											target="blank"
+											class="icon-name ig-link"
+											href="https://www.instagram.com/les.belles.plantes/?hl=fr"
 											><BootstrapIcon icon="instagram" class="icon ig" />&nbsp;Instagram</a
 										></a
 									>
 									<a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-										><a class="icon-name" href="https://goo.gl/maps/mVJEDLnYLrSXH6Pw8"
+										><a
+											target="blank"
+											class="icon-name maps-link"
+											href="https://goo.gl/maps/mVJEDLnYLrSXH6Pw8"
 											><BootstrapIcon icon="geo-alt" class="icon geo-alt" />&nbsp;15 Rue
 											Jean-Macé, 75011 Paris</a
 										></a
@@ -86,10 +95,10 @@
 				</div>
 				<!-- Copyright -->
 				<div class="text-center border footer-bottom">
-					<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes</a> © 2022
-					Tous droits réservés
-					<a class="text-reset fw-bold" href="https://rahim-hamadou.netlify.app"> A2R-Digital </a> Rahim
-					Hamadou
+					<a class="text-reset fw-bold" href="https://lesbellesplantes.fr//"> Les Belles Plantes </a> &nbsp; ©
+					2022 Tous droits réservés &nbsp;
+					<a class="text-reset fw-bold" href="https://rahim-hamadou.netlify.app"> A2R-Digital </a> &nbsp;
+					Rahim Hamadou
 				</div>
 
 				<!-- Copyright -->
@@ -147,7 +156,7 @@ a {
 }
 .ig:hover {
 	color: #f46f30;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 .fb {
 	color: #3b5998;
@@ -156,7 +165,7 @@ a {
 }
 .fb:hover {
 	color: #3b5998;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 /* sourlignement */
 .author {
@@ -172,17 +181,37 @@ a {
 /* sourlignement */
 
 .icon-name {
-	color: #3b5998;
+	color: white;
 }
 .footer-comp {
 	text-align: center;
 }
 
 .footer-content {
-	background-color: #cde6f5;
-	color: #1c2f59;
+	background-color: #1c334f;
+	color: white;
 }
 .footer-bottom {
 	background: #8dafc2;
+	height: 20px;
+	font-size: clamp(8px, 5vw, 10px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	color: #1c334f;
+}
+.text-reset {
+	font-size: clamp(6px, 5vw, 12px);
+}
+
+.fb-link:hover {
+	color: #3b5998;
+}
+.ig-link:hover {
+	color: #f46f30;
+}
+.maps-link:hover {
+	color: #604e3d;
 }
 </style>

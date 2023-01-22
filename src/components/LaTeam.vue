@@ -22,4 +22,8 @@ export default {
 * {
 	font-size: 1rem;
 }
+h2 {
+	font-size: clamp(20px, 5vw, 25px);
+	overflow: hidden;
+}
 </style>

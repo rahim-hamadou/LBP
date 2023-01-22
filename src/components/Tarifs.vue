@@ -6,8 +6,8 @@
 
 		<div class="container informations__prices">
 			<div class="row mx-auto justify-content-center">
-				<div class="row">
-					<h3 class="focus center mb-3">COLORATION VÉGÉTALE*</h3>
+				<h3 class="focus center mb-3">COLORATION VÉGÉTALE*</h3>
+				<div class="row colo">
 					<!-- <h6>Blond cuivré / marron</h6> -->
 					<div data-aos="fade-right" class="col">
 						<h6>
@@ -59,6 +59,14 @@
 						<li>coupe cheveux très courts (tondeuse/rasé) avec shampoing {{ coupe.cheveuxTresCourts }}</li>
 						<li>coupe cheveux courts avec shampoing soin massant séchage {{ coupe.cheveuxCourts }}</li>
 						<li>coupe cheveux longs shampoing soin massant séchage {{ coupe.cheveuxLongs }}</li>
+						<li>
+							coupe cheveux longs et epais shampoing soin massant séchage
+							{{ coupe.cheveuxLongsEpais }}
+						</li>
+						<li>
+							coupe cheveux trés longs et epais shampoing soin massant séchage
+							{{ coupe.cheveuxTresLongsEpais }}
+						</li>
 						<li>
 							coupe tranformation avec conseil morpho shampoing soin massant séchage
 							{{ coupe.cheveuxTransfo }}
@@ -163,6 +171,8 @@ export default {
 				cheveuxCourts: "55€",
 				cheveuxCourtsbrush: "70€",
 				cheveuxLongs: "60€",
+				cheveuxLongsEpais: "65€",
+				cheveuxTresLongsEpais: "70€",
 				cheveuxLongsBrush: "90€",
 				cheveuxTransfo: "80€",
 				cheveuxTransfoBrush: "100€",
@@ -212,6 +222,7 @@ span {
 .center {
 	text-align: center;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .alias {
@@ -219,6 +230,26 @@ span {
 	background-color: #cde6f5;
 	margin: 0;
 	width: fit-content;
+}
+h3 {
+	font-size: clamp(20px, 5vw, 25px);
+}
+
+.colo {
+	display: flex;
+	flex-direction: column;
+}
+h6 {
+	overflow: hidden;
+}
+@media only screen and (max-width: 1200px) {
+	/*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+	/*Small smartphones [325px -> 425px]*/
 }
 /* DONT USE */
 

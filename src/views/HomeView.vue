@@ -130,6 +130,9 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+	padding: 0;
+}
 h1 {
 	font-family: "Comic Neue", cursive;
 }
@@ -141,9 +144,14 @@ h1 {
 	width: 100%;
 	background-repeat: no-repeat;
 }
-/* .logo {
-	width: 10vw;
-} */
+.logo {
+	margin: auto;
+}
+.logo img {
+	height: 100%;
+	width: 90%;
+	font-size: 10px;
+}
 
 .btn-booking {
 	color: white;
@@ -188,6 +196,7 @@ h1 {
 	height: 75vh;
 	align-items: center;
 	justify-content: center;
+	margin: 0 !important;
 }
 .illustration {
 	height: 300px;

@@ -115,11 +115,11 @@
 	<!-- </div> -->
 </template>
 <script>
+import FooterBottom from "@/components/FooterBottom.vue";
+import MapInfo from "@/components/MapInfo.vue";
+import NavBarTop from "@/components/NavBarTop.vue";
 import HairCare from "../components/HairCare.vue";
 import LaTeam from "../components/LaTeam.vue";
-import FooterBottom from "@/components/FooterBottom.vue";
-import NavBarTop from "@/components/NavBarTop.vue";
-import MapInfo from "@/components/MapInfo.vue";
 
 export default {
 	name: "TeamSalon",

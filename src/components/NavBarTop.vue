@@ -1,11 +1,8 @@
 <template>
 	<div class="container">
-		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light nav-top">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light nav-top">
 			<div class="container-fluid navigation-bar navigation-place">
-				<a
-					class="navbar-brand me-0 nav-content nameSite"
-					href="https://lesbellesplantes.fr/"
-					title="les belles plantes"
+				<a class="navbar-brand me-0 nav-content nameSite" href="." title="les belles plantes"
 					>Les Belles Plantes<i class="bi-alarm"></i>
 				</a>
 
@@ -51,14 +48,20 @@
 						<ul class="social d-flex justify-content-center">
 							<li class="nav-item">
 								<a class="nav-link logoSocial" href="#" tabindex="-1" aria-disabled="true">
-									<a class="fb" href="https://fr-fr.facebook.com/salonlesbellesplantes/"
+									<a
+										class="fb"
+										target="blank"
+										href="https://fr-fr.facebook.com/salonlesbellesplantes/"
 										><BootstrapIcon icon="facebook" class="icon fb"
 									/></a>
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link logoSocial" href="#" tabindex="-1" aria-disabled="true"
-									><a class="ig" href="https://www.instagram.com/les.belles.plantes/?hl=fr"
+									><a
+										class="ig"
+										target="blank"
+										href="https://www.instagram.com/les.belles.plantes/?hl=fr"
 										><BootstrapIcon icon="instagram" class="icon ig" /></a
 								></a>
 							</li>
@@ -147,7 +150,7 @@ export default {
 // Tools
 // Header
 .navigation-bar {
-	background-color: #8dafc2;
+	background-color: #1c334f;
 	padding: 0;
 }
 nav {
@@ -159,7 +162,7 @@ nav {
 		color: #000;
 
 		&.router-link-exact-active {
-			color: #fff;
+			color: #8dafc2;
 		}
 	}
 }
@@ -175,7 +178,7 @@ ul {
 
 li a {
 	text-decoration: none;
-	color: #1c2f59;
+	color: white;
 }
 
 li .nav-item:hover {
@@ -186,6 +189,7 @@ li .nav-item:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin: 10px;
+	color: white;
 }
 
 .social {
@@ -215,13 +219,16 @@ li .nav-item:hover {
 }
 .ig:hover {
 	color: #f46f30;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 .fb:hover {
 	color: #3b5998;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 .nav-content {
-	color: #1c2f59;
+	color: #fff;
+}
+h5 {
+	overflow: hidden !important;
 }
 </style>

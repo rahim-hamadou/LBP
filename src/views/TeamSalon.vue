@@ -71,9 +71,6 @@
 				<div data-aos="fade-up" class="row v-slider-bloc">
 					<h1>Venez découvrir la coiffure végétale dans notre salon</h1>
 				</div>
-				<div class="col mx-auto my-4 v-slider-bloc">
-					<MapInfo class="mapScreen"></MapInfo>
-				</div>
 
 				<div class="">
 					<div
@@ -119,11 +116,21 @@
 
 "
 							></HairCare>
-							<HairCare titleHair="La presse parle de nous" contentHair=""></HairCare>
+							<!-- <HairCare
+								titleHair="La presse parle de nous"
+								contentHair="
+							"
+							>
+							</HairCare> -->
 						</div>
 					</div>
+					<div class="row-md-5 row-sm-12 v-slider-bloc banner">
+						<PressInfor />
+					</div>
 
-					<div class="row-md-5 row-sm-12 banner-img-4 v-slider-bloc banner"></div>
+					<div class="col mx-auto my-4 v-slider-bloc">
+						<MapInfo class="mapScreen"></MapInfo>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -133,11 +140,12 @@
 	<!-- </div> -->
 </template>
 <script>
+import FooterBottom from "@/components/FooterBottom.vue";
+import MapInfo from "@/components/MapInfo.vue";
+import NavBarTop from "@/components/NavBarTop.vue";
 import HairCare from "../components/HairCare.vue";
 import LaTeam from "../components/LaTeam.vue";
-import FooterBottom from "@/components/FooterBottom.vue";
-import NavBarTop from "@/components/NavBarTop.vue";
-import MapInfo from "@/components/MapInfo.vue";
+import PressInfor from "../components/PressInfo.vue";
 
 export default {
 	name: "TeamSalon",
@@ -151,6 +159,7 @@ export default {
 		FooterBottom,
 		HairCare,
 		MapInfo,
+		PressInfor,
 	},
 	data() {
 		return {
