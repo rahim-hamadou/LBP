@@ -214,7 +214,7 @@
 					aria-label="Slide 33"
 				></button>
 			</div>
-			<div class="carousel-inner">
+			<div class="carousel-inner carousel-fade">
 				<div class="carousel-item active">
 					<img
 						src="../assets/Les_Belles_Plantes/Les_Belles_Plantes_FRK_378718_0.jpg"
@@ -457,9 +457,9 @@ export default {
 .carousel-info {
 	margin: 25px auto;
 	overflow: hidden;
-	background-color: aquamarine;
-	height: 100%;
-	width: 80%;
+	background-color: rgba(105, 105, 105, 0);
+	max-height: 80%;
+	width: 60%;
 }
 
 /* test */

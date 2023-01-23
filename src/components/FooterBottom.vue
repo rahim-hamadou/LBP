@@ -200,6 +200,7 @@ a {
 	align-items: center;
 	border: none;
 	color: #1c334f;
+	border: 0 !important;
 }
 .text-reset {
 	font-size: clamp(6px, 5vw, 12px);
